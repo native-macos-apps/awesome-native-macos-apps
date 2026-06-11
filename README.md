@@ -1,3 +1,11 @@
+# Awesome Native macOS Apps
+
+In recent years, many desktop applications have shifted towards web-based technologies like Electron, wrapping web apps inside heavy webview shells. While this simplifies cross-platform development, it often leads to bloated file sizes, high memory consumption, sluggish performance, and a user interface that lacks the native feel and integration of macOS.
+
+This project is a curated library of **native macOS applications**—built using native APIs and frameworks like Swift, Objective-C, and AppKit/SwiftUI. Our goal is to help you discover and choose fast, lightweight, and energy-efficient apps that look and feel right at home on your Mac.
+
+---
+
 **Categories**
 - [Analytics & Monitoring](#analytics--monitoring)
 - [Audio & Music](#audio--music)
