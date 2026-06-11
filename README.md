@@ -274,6 +274,7 @@
 ## Terminal & Shell
 
 - [Alacritty](https://alacritty.org) - GPU-accelerated terminal emulator. `Free` `Open Source`
+- [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich GPU-based terminal. `Free` `Open Source`
 - [iTerm2](https://iterm2.com) - Terminal emulator for macOS. `Free` `Open Source`
 - [Kitty](https://sw.kovidgoyal.net/kitty) - Fast, feature-rich GPU-based terminal. `Free` `Open Source`
 - [Terminal](https://support.apple.com/guide/terminal) - Built-in macOS terminal. `Free`
@@ -293,7 +294,6 @@
 - [VimR](https://github.com/qvacua/vimr) - Neovim GUI for macOS. `Free` `Open Source`
 - [Zed](https://github.com/zed-industries/zed) - Rust-based code editor built. `Free` `Open Source`
 
-
 ## Video & Media
 
 - [HandBrake](https://handbrake.fr) - Open source video transcoder. `Free` `Open Source`
@@ -309,6 +309,7 @@
 ## VPN Client
 
 - [Passepartout](https://github.com/partout-io/passepartout) - Your go-to app for VPN and privacy. `Free` `Open Source`
+- [Tunnelblick](https://github.com/Tunnelblick/Tunnelblick) - OpenVPN Client. `Free` `Open Source`
 - [Viscosity](https://www.sparklabs.com/viscosity) - OpenVPN Client. `Paid`
 
 ## Wallpaper Apps
