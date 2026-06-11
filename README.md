@@ -256,6 +256,7 @@
 - [coconutBattery](https://www.coconut-flavour.com/coconutbattery) - Check battery health and status. `Free`
 - [ClearDisk](https://github.com/bysiber/cleardisk) - macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space. `Free` `Open Source`
 - [DaisyDisk](https://daisydiskapp.com) - Analyze disk usage and free up space. `Paid`
+- [MacPacker](https://github.com/sarensw/MacPacker) - Archive manager for macOS. `Free` `Open Source`
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control external monitor brightness & volume like native displays. `Free` `Open Source`
 - [DisplayBuddy](https://displaybuddy.app) - Control the real brightness of monitors directly from Mac. `Paid`
 - [Endurance](https://enduranceapp.com) - Extend your MacBook's battery life. `Paid`
@@ -264,7 +265,6 @@
 - [iStat Menus](https://bjango.com/mac/istatmenus) - Advanced Mac system monitor. `Paid`
 - [LinearMouse](https://linearmouse.app) - The mouse and trackpad utility for Mac. `Free` `Open Source`
 - [Lungo](https://sindresorhus.com/lungo) - Prevent your Mac from going to sleep. `Paid`
-- [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control external display brightness and volume. `Free` `Open Source`
 - [Onyx](https://www.titanium-software.fr/en/onyx.html) - Multifunction utility for macOS. `Free` `EU`
 - [Pearcleaner](https://pearcleaner.com) - Powerful Mac app cleaner `Free` `Open Source`
 - [Rectangle](https://rectangleapp.com) - Window management with keyboard shortcuts. `Free` `Open Source`
