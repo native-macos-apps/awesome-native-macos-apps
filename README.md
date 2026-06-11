@@ -27,6 +27,7 @@
 - [Terminal & Shell](#terminal--shell)
 - [Text Editors](#text-editors)
 - [Video & Media](#video--media)
+- [VPN Client](#vpn-client)
 - [Wallpaper Apps](#wallpaper-apps)
 - [Window Management](#window-management)
 
