@@ -16,6 +16,7 @@
 - [Image & Graphics](#image--graphics)
 - [Markdown Editors](#markdown-editors)
 - [Menu Bar Apps](#menu-bar-apps)
+- [Messaging](#messaging)
 - [Network Tools](#network-tools)
 - [Note-Taking & Writing](#note-taking--writing)
 - [Password Managers](#password-managers)
@@ -175,6 +176,10 @@
 - [Stargazer Bar](https://jazzyalex.github.io/stargazer-bar) - Track one public GitHub repo's stars and release downloads from your menu bar. `Free` `Open Source`
 - [Thaw](https://github.com/stonerl/Thaw) - Powerful menu bar management tool. Fork of Ice, lower resource usage. `Free` `Open Source`
 - [TickerPad](https://tickerpad.app) - Real-time crypto prices in your macOS menu bar.  `Freemium`
+
+## Messaging
+
+- [Telegram](https://macos.telegram.org) - Native messaging app focused on speed and security. `Free` `Open Source`
 
 ## Network Tools
 
