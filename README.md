@@ -291,6 +291,7 @@
 - [SubEthaEdit](https://subethaedit.net) - Code, write, and edit with collaborative features. `Free` `Open Source`
 - [TextMate](https://macromates.com) - Powerful text editor for macOS. `Free` `Open Source`
 - [VimR](https://github.com/qvacua/vimr) - Neovim GUI for macOS. `Free` `Open Source`
+- [Zed](https://github.com/zed-industries/zed) - Rust-based code editor built. `Free` `Open Source`
 
 
 ## Video & Media
@@ -328,4 +329,3 @@
 - [Swish](https://highlyopinionated.co/swish) - Control windows with trackpad gestures. `Paid`
 - [Wins](https://wins.cool) - Bring system-level window management features to macOS. `Paid`
 - [Yabai](https://github.com/koekeishiya/yabai) - Tiling window manager for macOS. `Free` `Open Source`
-
