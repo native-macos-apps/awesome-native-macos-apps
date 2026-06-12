@@ -291,7 +291,6 @@ This project is a curated library of **native macOS applications**—built using
 - [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich GPU-based terminal. `Free` `Open Source`
 - [iTerm2](https://iterm2.com) - Terminal emulator for macOS. `Free` `Open Source`
 - [Kitty](https://sw.kovidgoyal.net/kitty) - Fast, feature-rich GPU-based terminal. `Free` `Open Source`
-- [Terminal](https://support.apple.com/guide/terminal) - Built-in macOS terminal. `Free`
 - [Warp](https://www.warp.dev) - Rust-based terminal with modern features. `Free`
 
 ## Text Editors
@@ -316,7 +315,6 @@ This project is a curated library of **native macOS applications**—built using
 - [Itsytv](https://github.com/nickustinov/itsytv-macos) - The missing Apple TV remote app. `Free` `Open Source`
 - [Movist Pro](https://movistprime.com) - Powerful movie player for macOS. `Paid`
 - [Permute](https://software.charliemonroe.net/permute) - Easy-to-use media converter. `Paid`
-- [QuickTime Player](https://support.apple.com/guide/quicktime-player) - Built-in media player for macOS. `Free`
 - [Subler](https://subler.org) - Mux and tag MP4 files. `Free` `Open Source`
 - [VLC](https://www.videolan.org/vlc) - Cross-platform multimedia player. `Free` `Open Source` `EU`
 
