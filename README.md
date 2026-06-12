@@ -97,6 +97,7 @@ This project is a curated library of **native macOS applications**—built using
 
 ## Design Tools
 
+- [Blender](https://github.com/blender/blender) - Free and open-source 3D creation suite. `Free` `Open Source`
 - [IconJar](https://geticonjar.com) - Icon management tool for designers. `Paid`
 - [Sketch](https://www.sketch.com) - Professional digital design for Mac. `Subscription` `EU`
 - [xScope](https://xscopeapp.com) - Measure, inspect, and test on-screen graphics. `Paid`
@@ -208,6 +209,7 @@ This project is a curated library of **native macOS applications**—built using
 - [Notational Velocity](http://notational.net) - Modeless note-taking application. `Free` `Open Source`
 - [Notebooks](https://www.notebooksapp.com) - Write, organize, and manage information. `Paid`
 - [nvALT](https://brettterpstra.com/projects/nvalt) - Fork of Notational Velocity with additional features. `Free` `Open Source`
+- [Simplenote](https://github.com/Automattic/simplenote-macos) - Simple note-taking application with cross-platform syncing. `Free` `Open Source`
 - [The Archive](https://zettelkasten.de/the-archive) - Note-taking app for writers and researchers. `Paid`
 - [Tot](https://tot.rocks) - Elegant text collection on menu bar. `Freemium`
 - [Ulysses](https://ulysses.app) - Professional writing environment for Mac. `Subscription` `EU`
