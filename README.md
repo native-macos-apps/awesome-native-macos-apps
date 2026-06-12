@@ -142,6 +142,7 @@ This project is a curated library of **native macOS applications**—built using
 
 ## Git & Version Control
 
+- [Changes](https://github.com/maoyama/Changes) - Open-source GUI Git client for macOS. `Free` `Open Source`
 - [Fork](https://git-fork.com) - Fast and friendly Git client for Mac. `Free`
 - [GitFox](https://www.gitfox.app) - Git client with a focus on simplicity. `Paid`
 - [GitUp](https://gitup.co) - Git interface you've been missing. `Free` `Open Source`
