@@ -107,6 +107,7 @@ This project is a curated library of **native macOS applications**—built using
 - [CodeEdit](https://github.com/CodeEditApp/CodeEdit) - Native code editor for macOS. `Free` `Open Source`
 - [DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) - Clean Xcode cache and derived data. `Free` `Open Source`
 - [DevUtils](https://devutils.com) - All-in-one offline toolbox for developers (42+ tools). `Freemium`
+- [OrbStack](https://orbstack.dev) - Fast, light, and easy way to run Docker containers and Linux machines. `Freemium`
 - [Paw](https://paw.cloud) - Advanced API tool for Mac. `Paid`
 - [Proxyman](https://proxyman.io) - Native HTTP debugging proxy. `Freemium`
 - [RocketSim](https://www.rocketsim.app) - Enhance Xcode Simulator productivity. `Freemium`
