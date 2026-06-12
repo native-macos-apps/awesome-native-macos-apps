@@ -190,6 +190,7 @@ This project is a curated library of **native macOS applications**—built using
 
 ## Messaging
 
+- [BitChat](https://github.com/permissionlesstech/bitchat) - Decentralized, peer-to-peer messaging application over Bluetooth mesh and Nostr. `Free` `Open Source`
 - [Telegram](https://macos.telegram.org) - Native messaging app focused on speed and security. `Free` `Open Source`
 
 ## Network Tools
