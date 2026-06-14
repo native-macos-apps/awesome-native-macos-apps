@@ -1,0 +1,1475 @@
+categories:
+  - id: analytics-monitoring
+    name: "Analytics & Monitoring"
+    description: "Native macOS apps for analytics & monitoring."
+    apps:
+      - name: "iStat Menus"
+        description: "Advanced Mac system monitor in your menu bar"
+        url: "https://bjango.com/mac/istatmenus"
+        tags: [analytics, monitoring]
+        price: paid
+        status: active
+      - name: "Stats"
+        description: "macOS system monitor for CPU, GPU, memory, disk, and more"
+        url: "https://github.com/exelban/stats"
+        tags: [analytics, monitoring, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Usage"
+        description: "System activity monitor for macOS, iOS, and iPadOS"
+        url: "https://usage.pro"
+        tags: [analytics, monitoring]
+        price: freemium
+        status: active
+  - id: audio-music
+    name: "Audio & Music"
+    description: "Native macOS apps for audio & music."
+    apps:
+      - name: "BackgroundMusic"
+        description: "macOS audio utility to control volume per-app"
+        url: "https://github.com/kyleneideck/BackgroundMusic"
+        tags: [audio, music, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Cog"
+        description: "Audio player for macOS with broad format support"
+        url: "https://cog.losno.co"
+        tags: [audio, music, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "eqMac"
+        description: "System-wide audio equalizer for macOS"
+        url: "https://eqmac.app"
+        tags: [audio, music, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "IINA"
+        description: "Modern video player with native macOS design"
+        url: "https://iina.io"
+        tags: [audio, music, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Muxie"
+        description: "Last.fm scrobbler for Apple Music, Spotify Desktop, iPod Classic, Rockbox devices and some others"
+        url: "https://muxie.duhnnie.com"
+        tags: [audio, music]
+        price: free
+        status: active
+      - name: "Petrichor"
+        description: "Offline music player with support for over 20 file formats and a lot of other features"
+        url: "https://github.com/kushalpandya/Petrichor"
+        tags: [audio, music, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Roam FM"
+        description: "Roam the world through global radio"
+        url: "https://roamfm.app"
+        tags: [audio, music]
+        price: freemium
+        status: active
+      - name: "Sleeve"
+        description: "Beautiful now playing display for Apple Music"
+        url: "https://replay.software/sleeve"
+        tags: [audio, music]
+        price: paid
+        status: active
+      - name: "SoundSource"
+        description: "Superior sound control for macOS"
+        url: "https://rogueamoeba.com/soundsource"
+        tags: [audio, music]
+        price: paid
+        status: active
+  - id: backup-sync
+    name: "Backup & Sync"
+    description: "Native macOS apps for backup & sync."
+    apps:
+      - name: "Arq"
+        description: "Backup your files to cloud storage"
+        url: "https://www.arqbackup.com"
+        tags: [backup, sync]
+        price: paid
+        status: active
+      - name: "Carbon Copy Cloner"
+        description: "Reliable Mac backup and cloning solution"
+        url: "https://bombich.com"
+        tags: [backup, sync]
+        price: paid
+        status: active
+  - id: browsers-web
+    name: "Browsers & Web"
+    description: "Native macOS apps for browsers & web."
+    apps:
+      - name: "Orion"
+        description: "Lightweight WebKit browser with zero telemetry"
+        url: "https://browser.kagi.com"
+        tags: [browsers, web]
+        price: free
+        status: active
+      - name: "Zen Browser"
+        description: "Privacy-focused, customizable browser built on Firefox"
+        url: "https://zen-browser.app"
+        tags: [browsers, web, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: calendar-time
+    name: "Calendar & Time"
+    description: "Native macOS apps for calendar & time."
+    apps:
+      - name: "Fantastical"
+        description: "Calendar app with natural language input"
+        url: "https://flexibits.com/fantastical"
+        tags: [calendar, time]
+        price: paid
+        status: active
+      - name: "Itsycal"
+        description: "Tiny menu bar calendar"
+        url: "https://www.mowglii.com/itsycal"
+        tags: [calendar, time, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Meeting Bar"
+        description: "Menu bar app for your calendar meetings"
+        url: "https://github.com/leits/MeetingBar"
+        tags: [calendar, time, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: clipboard-managers
+    name: "Clipboard Managers"
+    description: "Native macOS apps for clipboard managers."
+    apps:
+      - name: "Clipy"
+        description: "Clipboard extension app for macOS"
+        url: "https://github.com/Clipy/Clipy"
+        tags: [clipboard, managers, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Maccy"
+        description: "Lightweight clipboard manager with search"
+        url: "https://github.com/p0deje/Maccy"
+        tags: [clipboard, managers, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Paste"
+        description: "Beautiful clipboard manager with cloud sync"
+        url: "https://pasteapp.io"
+        tags: [clipboard, managers]
+        price: paid
+        status: active
+      - name: "Unclutter"
+        description: "Files, notes, and clipboard manager in one"
+        url: "https://unclutterapp.com"
+        tags: [clipboard, managers]
+        price: paid
+        status: active
+  - id: color-pickers
+    name: "Color Pickers"
+    description: "Native macOS apps for color pickers."
+    apps:
+      - name: "ColorSlurp"
+        description: "Best color picker and organizer for macOS"
+        url: "https://colorslurp.com"
+        tags: [color, pickers]
+        price: freemium
+        status: active
+      - name: "Pika"
+        description: "Beautiful color picker for macOS"
+        url: "https://superhighfives.com/pika"
+        tags: [color, pickers, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Sip"
+        description: "Collect, organize and share colors"
+        url: "https://sipapp.io"
+        tags: [color, pickers]
+        price: paid
+        status: active
+  - id: database-tools
+    name: "Database Tools"
+    description: "Native macOS apps for database tools."
+    apps:
+      - name: "Sequel-Ace"
+        description: "MySQL/MariaDB database management for macOS"
+        url: "https://github.com/Sequel-Ace/Sequel-Ace"
+        tags: [database, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Postico"
+        description: "Modern PostgreSQL client for macOS"
+        url: "https://eggerapps.at/postico2"
+        tags: [database, tools, eu]
+        price: paid
+        status: active
+      - name: "TablePlus"
+        description: "Modern native database management tool"
+        url: "https://tableplus.com"
+        tags: [database, tools]
+        price: freemium
+        status: active
+      - name: "TablePro"
+        description: "Native database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and more"
+        url: "https://tablepro.app"
+        tags: [database, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: design-tools
+    name: "Design Tools"
+    description: "Native macOS apps for design tools."
+    apps:
+      - name: "Blender"
+        description: "Free and open-source 3D creation suite"
+        url: "https://github.com/blender/blender"
+        tags: [design, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "IconJar"
+        description: "Icon management tool for designers"
+        url: "https://geticonjar.com"
+        tags: [design, tools]
+        price: paid
+        status: active
+      - name: "Sketch"
+        description: "Professional digital design for Mac"
+        url: "https://www.sketch.com"
+        tags: [design, tools, eu]
+        price: paid
+        status: active
+      - name: "xScope"
+        description: "Measure, inspect, and test on-screen graphics"
+        url: "https://xscopeapp.com"
+        tags: [design, tools]
+        price: paid
+        status: active
+  - id: developer-tools
+    name: "Developer Tools"
+    description: "Native macOS apps for developer tools."
+    apps:
+      - name: "BucketMate"
+        description: "Native S3 GUI Client for macOS"
+        url: "https://bucketmate.app"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "CodeEdit"
+        description: "Native code editor for macOS"
+        url: "https://github.com/CodeEditApp/CodeEdit"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "DevCleaner"
+        description: "Clean Xcode cache and derived data"
+        url: "https://github.com/vashpan/xcode-dev-cleaner"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "DevUtils"
+        description: "All-in-one offline toolbox for developers (42+ tools)"
+        url: "https://devutils.com"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "OrbStack"
+        description: "Fast, light, and easy way to run Docker containers and Linux machines"
+        url: "https://orbstack.dev"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "Paw"
+        description: "Advanced API tool for Mac"
+        url: "https://paw.cloud"
+        tags: [developer, tools]
+        price: paid
+        status: active
+      - name: "Proxyman"
+        description: "Native HTTP debugging proxy"
+        url: "https://proxyman.io"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "RocketSim"
+        description: "Enhance Xcode Simulator productivity"
+        url: "https://www.rocketsim.app"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "Rockxy"
+        description: "macOS HTTP/HTTPS debugging proxy to capture, inspect, modify, and replay traffic"
+        url: "https://rockxy.io"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: freemium
+        status: active
+      - name: "SSH Keys Manager"
+        description: "Native macOS app for managing SSH keys and SSH config entries"
+        url: "https://github.com/Stmol/ssh-keys-manager-macos-app"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "SF Symbols"
+        description: "Browse and export Apple's SF Symbols"
+        url: "https://developer.apple.com/sf-symbols"
+        tags: [developer, tools]
+        price: free
+        status: active
+  - id: email-communication
+    name: "Email & Communication"
+    description: "Native macOS apps for email & communication."
+    apps:
+      - name: "Airmail"
+        description: "Lightning fast mail client for Mac"
+        url: "https://airmailapp.com"
+        tags: [email, communication, eu]
+        price: paid
+        status: active
+      - name: "MailMate"
+        description: "Advanced IMAP email client with keyboard control"
+        url: "https://freron.com"
+        tags: [email, communication]
+        price: paid
+        status: active
+      - name: "Mimestream"
+        description: "Native Gmail client for macOS"
+        url: "https://mimestream.com"
+        tags: [email, communication]
+        price: paid
+        status: active
+  - id: finance
+    name: "Finance"
+    description: "Native macOS apps for finance."
+    apps:
+      - name: "Chronicle"
+        description: "Bill organizer and payment tracker"
+        url: "https://chronicleapp.com"
+        tags: [finance]
+        price: paid
+        status: active
+      - name: "Copilot"
+        description: "Personal finance and budgeting app with automatic transaction syncing"
+        url: "https://www.copilot.money"
+        tags: [finance]
+        price: paid
+        status: active
+      - name: "Soulver"
+        description: "Smart notepad calculator that understands plain English math"
+        url: "https://soulver.app"
+        tags: [finance, eu]
+        price: paid
+        status: active
+      - name: "Subscription Day"
+        description: "Track your paid subscriptions and analyze spending statistics"
+        url: "https://subsday.appps.od.ua"
+        tags: [finance]
+        price: freemium
+        status: active
+  - id: file-management
+    name: "File Management"
+    description: "Native macOS apps for file management."
+    apps:
+      - name: "Commander One"
+        description: "Dual-pane file manager for macOS"
+        url: "https://mac.eltima.com/file-manager.html"
+        tags: [file, management]
+        price: freemium
+        status: active
+      - name: "ForkLift"
+        description: "Advanced dual-pane file manager and FTP client"
+        url: "https://binarynights.com"
+        tags: [file, management]
+        price: paid
+        status: active
+      - name: "Hazel"
+        description: "Automated organization for your Mac"
+        url: "https://www.noodlesoft.com"
+        tags: [file, management]
+        price: paid
+        status: active
+      - name: "NameQuick"
+        description: "AI-powered file renaming using GPT, Gemini, or local LLMs"
+        url: "https://www.namequick.app"
+        tags: [file, management]
+        price: paid
+        status: active
+      - name: "Path Finder"
+        description: "Powerful Finder alternative"
+        url: "https://www.cocoatech.io"
+        tags: [file, management]
+        price: paid
+        status: active
+      - name: "Quick Look plugins"
+        description: "Useful Quick Look plugins for developers"
+        url: "https://github.com/sindresorhus/quick-look-plugins"
+        tags: [file, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Encrypto"
+        description: "Encrypt files with AES-256 encryption"
+        url: "https://macpaw.com/encrypto"
+        tags: [file, management]
+        price: free
+        status: active
+      - name: "Transmit"
+        description: "File transfer apps"
+        url: "https://panic.com/transmit"
+        tags: [file, management]
+        price: paid
+        status: active
+  - id: git-version-control
+    name: "Git & Version Control"
+    description: "Native macOS apps for git & version control."
+    apps:
+      - name: "Changes"
+        description: "Open-source GUI Git client for macOS"
+        url: "https://github.com/maoyama/Changes"
+        tags: [git, version, control, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Fork"
+        description: "Fast and friendly Git client for Mac"
+        url: "https://git-fork.com"
+        tags: [git, version, control]
+        price: free
+        status: active
+      - name: "GitFox"
+        description: "Git client with a focus on simplicity"
+        url: "https://www.gitfox.app"
+        tags: [git, version, control]
+        price: paid
+        status: active
+      - name: "GitUp"
+        description: "Git interface you've been missing"
+        url: "https://gitup.co"
+        tags: [git, version, control, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "SourceTree"
+        description: "Free Git client from Atlassian"
+        url: "https://www.sourcetreeapp.com"
+        tags: [git, version, control]
+        price: free
+        status: active
+      - name: "Tower"
+        description: "Powerful Git client for Mac"
+        url: "https://www.git-tower.com/mac"
+        tags: [git, version, control, eu]
+        price: paid
+        status: active
+  - id: image-graphics
+    name: "Image & Graphics"
+    description: "Native macOS apps for image & graphics."
+    apps:
+      - name: "Acorn"
+        description: "Full-featured photo editor designed for humans"
+        url: "https://flyingmeat.com/acorn"
+        tags: [image, graphics]
+        price: paid
+        status: active
+      - name: "ImageOptim"
+        description: "Compress images without losing quality"
+        url: "https://imageoptim.com"
+        tags: [image, graphics, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Pixave"
+        description: "Ultimate image organizer and viewer"
+        url: "https://www.pixaveapp.com"
+        tags: [image, graphics]
+        price: paid
+        status: active
+      - name: "Pixelmator Pro"
+        description: "Powerful native image editor"
+        url: "https://www.pixelmator.com/pro"
+        tags: [image, graphics, eu]
+        price: paid
+        status: active
+      - name: "Retrobatch"
+        description: "Batch image processing for Mac"
+        url: "https://flyingmeat.com/retrobatch"
+        tags: [image, graphics]
+        price: paid
+        status: active
+      - name: "xScope"
+        description: "Measure, inspect and test on-screen graphics"
+        url: "https://xscopeapp.com"
+        tags: [image, graphics]
+        price: paid
+        status: active
+  - id: markdown-editors
+    name: "Markdown Editors"
+    description: "Native macOS apps for markdown editors."
+    apps:
+      - name: "Glance"
+        description: "Native Markdown viewer and Quick Look extension"
+        url: "https://glance.md"
+        tags: [markdown, editors]
+        price: free
+        status: active
+      - name: "iA Writer"
+        description: "Focused writing app with beautiful typography"
+        url: "https://ia.net/writer"
+        tags: [markdown, editors]
+        price: paid
+        status: active
+      - name: "MacDown"
+        description: "Open source Markdown editor for macOS"
+        url: "https://macdown.uranusjr.com"
+        tags: [markdown, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Marked 2"
+        description: "Markdown preview and conversion"
+        url: "https://marked2app.com"
+        tags: [markdown, editors]
+        price: paid
+        status: active
+      - name: "MD Preview"
+        description: "Lightweight Markdown preview app using Rust and native WebView"
+        url: "https://vorojar.github.io/md-preview"
+        tags: [markdown, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "MWeb"
+        description: "Pro Markdown writing and note-taking"
+        url: "https://www.mweb.im"
+        tags: [markdown, editors]
+        price: paid
+        status: active
+      - name: "Typora"
+        description: "Minimal Markdown editor and reader"
+        url: "https://typora.io"
+        tags: [markdown, editors]
+        price: paid
+        status: active
+      - name: "Writer"
+        description: "Local-first markdown editor with a Rust backend and native WKWebView"
+        url: "https://writer.computer"
+        tags: [markdown, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: menu-bar-apps
+    name: "Menu Bar Apps"
+    description: "Native macOS apps for menu bar apps."
+    apps:
+      - name: "Bartender"
+        description: "Organize your menu bar icons"
+        url: "https://www.macbartender.com"
+        tags: [menu, bar, apps]
+        price: paid
+        status: active
+      - name: "Commitments"
+        description: "Your tasks in menu bar"
+        url: "https://commitments.pages.dev"
+        tags: [menu, bar, apps]
+        price: paid
+        status: active
+      - name: "DatWeatherDoe"
+        description: "Simple menu bar weather app"
+        url: "https://github.com/inderdhir/DatWeatherDoe"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Dozer"
+        description: "Hide menu bar icons to give your Mac a cleaner look"
+        url: "https://github.com/Mortennn/Dozer"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Hand Mirror"
+        description: "One-click camera check from menu bar"
+        url: "https://handmirror.app"
+        tags: [menu, bar, apps]
+        price: free
+        status: active
+      - name: "Hidden Bar"
+        description: "Hide menu bar items"
+        url: "https://github.com/dwarvesf/hidden"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "HomeBar for Homey Pro"
+        description: "Manage your Homey Pro smart home"
+        url: "https://homebar.pro"
+        tags: [menu, bar, apps]
+        price: freemium
+        status: active
+      - name: "Itsycal"
+        description: "Tiny menu bar calendar"
+        url: "https://www.mowglii.com/itsycal"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Itsyhome"
+        description: "Smart home meets menu bar"
+        url: "https://github.com/nickustinov/itsyhome-macos"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: freemium
+        status: active
+      - name: "MenubarX"
+        description: "Browser in your menu bar"
+        url: "https://menubarx.app"
+        tags: [menu, bar, apps]
+        price: freemium
+        status: active
+      - name: "One Thing"
+        description: "Put a single task in your menu bar"
+        url: "https://sindresorhus.com/one-thing"
+        tags: [menu, bar, apps]
+        price: paid
+        status: active
+      - name: "OpenQuack"
+        description: "Transcribes a 5-minute clip in 2.8 s — local WhisperKit dictation, noise-robust. ~8 MB native Swift"
+        url: "https://github.com/larryxiao/openquack"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "SaneBar"
+        description: "Privacy-first menu bar manager. Hide and organize icons"
+        url: "https://sanebar.com"
+        tags: [menu, bar, apps]
+        price: freemium
+        status: active
+      - name: "Stargazer Bar"
+        description: "Track one public GitHub repo's stars and release downloads from your menu bar"
+        url: "https://jazzyalex.github.io/stargazer-bar"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Thaw"
+        description: "Powerful menu bar management tool. Fork of Ice, lower resource usage"
+        url: "https://github.com/stonerl/Thaw"
+        tags: [menu, bar, apps, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "TickerPad"
+        description: "Real-time crypto prices in your macOS menu bar"
+        url: "https://tickerpad.app"
+        tags: [menu, bar, apps]
+        price: freemium
+        status: active
+  - id: messaging
+    name: "Messaging"
+    description: "Native macOS apps for messaging."
+    apps:
+      - name: "BitChat"
+        description: "Decentralized, peer-to-peer messaging application over Bluetooth mesh and Nostr"
+        url: "https://github.com/permissionlesstech/bitchat"
+        tags: [messaging, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Telegram"
+        description: "Native messaging app focused on speed and security"
+        url: "https://macos.telegram.org"
+        tags: [messaging, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: network-tools
+    name: "Network Tools"
+    description: "Native macOS apps for network tools."
+    apps:
+      - name: "Little Snitch"
+        description: "Network monitor and firewall"
+        url: "https://www.obdev.at/products/littlesnitch"
+        tags: [network, tools, eu]
+        price: paid
+        status: active
+      - name: "Micro Snitch"
+        description: "Monitor camera and microphone access"
+        url: "https://www.obdev.at/products/microsnitch"
+        tags: [network, tools, eu]
+        price: paid
+        status: active
+      - name: "NetNewsWire"
+        description: "RSS reader for macOS"
+        url: "https://netnewswire.com"
+        tags: [network, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Surge"
+        description: "Advanced network toolbox for Mac"
+        url: "https://nssurge.com"
+        tags: [network, tools]
+        price: paid
+        status: active
+      - name: "WiFi Explorer"
+        description: "Scan, monitor and troubleshoot wireless networks"
+        url: "https://www.intuitibits.com/products/wifi-explorer"
+        tags: [network, tools]
+        price: paid
+        status: active
+  - id: note-taking-writing
+    name: "Note-Taking & Writing"
+    description: "Native macOS apps for note-taking & writing."
+    apps:
+      - name: "Bear"
+        description: "Beautiful, flexible writing app"
+        url: "https://bear.app"
+        tags: [note, taking, writing, eu]
+        price: freemium
+        status: active
+      - name: "Craft"
+        description: "Native document editor with sharing"
+        url: "https://www.craft.do"
+        tags: [note, taking, writing]
+        price: freemium
+        status: active
+      - name: "DEVONthink"
+        description: "Document and information management"
+        url: "https://www.devontechnologies.com/apps/devonthink"
+        tags: [note, taking, writing]
+        price: paid
+        status: active
+      - name: "FSNotes"
+        description: "Modern notes manager for macOS"
+        url: "https://fsnot.es"
+        tags: [note, taking, writing, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "iA Writer"
+        description: "Focused writing app with beautiful typography"
+        url: "https://ia.net/writer"
+        tags: [note, taking, writing]
+        price: paid
+        status: active
+      - name: "Notational Velocity"
+        description: "Modeless note-taking application"
+        url: "http://notational.net"
+        tags: [note, taking, writing, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Notebooks"
+        description: "Write, organize, and manage information"
+        url: "https://www.notebooksapp.com"
+        tags: [note, taking, writing]
+        price: paid
+        status: active
+      - name: "nvALT"
+        description: "Fork of Notational Velocity with additional features"
+        url: "https://brettterpstra.com/projects/nvalt"
+        tags: [note, taking, writing, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Simplenote"
+        description: "Simple note-taking application with cross-platform syncing"
+        url: "https://github.com/Automattic/simplenote-macos"
+        tags: [note, taking, writing, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "The Archive"
+        description: "Note-taking app for writers and researchers"
+        url: "https://zettelkasten.de/the-archive"
+        tags: [note, taking, writing]
+        price: paid
+        status: active
+      - name: "Tot"
+        description: "Elegant text collection on menu bar"
+        url: "https://tot.rocks"
+        tags: [note, taking, writing]
+        price: freemium
+        status: active
+      - name: "Ulysses"
+        description: "Professional writing environment for Mac"
+        url: "https://ulysses.app"
+        tags: [note, taking, writing, eu]
+        price: paid
+        status: active
+  - id: password-managers
+    name: "Password Managers"
+    description: "Native macOS apps for password managers."
+    apps:
+      - name: "MacPass"
+        description: "A native macOS KeePass client"
+        url: "https://macpassapp.org"
+        tags: [password, managers, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Strongbox"
+        description: "Native KeePass client for macOS"
+        url: "https://strongboxsafe.com"
+        tags: [password, managers]
+        price: freemium
+        status: active
+  - id: pdf-tools
+    name: "PDF Tools"
+    description: "Native macOS apps for pdf tools."
+    apps:
+      - name: "PDFgear"
+        description: "Free PDF editor for macOS"
+        url: "https://www.pdfgear.com"
+        tags: [pdf, tools]
+        price: free
+        status: active
+      - name: "PDF Expert"
+        description: "Fast, robust PDF editor"
+        url: "https://pdfexpert.com"
+        tags: [pdf, tools]
+        price: paid
+        status: active
+      - name: "PDFpenPro"
+        description: "Professional PDF editing for Mac"
+        url: "https://pdfpen.com"
+        tags: [pdf, tools]
+        price: paid
+        status: active
+      - name: "Skim"
+        description: "PDF reader and note-taker"
+        url: "https://skim-app.sourceforge.io"
+        tags: [pdf, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: productivity
+    name: "Productivity"
+    description: "Native macOS apps for productivity."
+    apps:
+      - name: "Alfred"
+        description: "Productivity app for macOS with powerful workflows"
+        url: "https://www.alfredapp.com"
+        tags: [productivity]
+        price: freemium
+        status: active
+      - name: "BetterTouchTool"
+        description: "Customize input devices on your Mac"
+        url: "https://folivora.ai"
+        tags: [productivity, eu]
+        price: paid
+        status: active
+      - name: "Due"
+        description: "Reminders with persistent alerts"
+        url: "https://www.dueapp.com"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Fantastical"
+        description: "Calendar app with natural language input"
+        url: "https://flexibits.com/fantastical"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Focus"
+        description: "Block distracting websites and applications"
+        url: "https://heyfocus.com"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Keyboard Maestro"
+        description: "Automate applications and websites"
+        url: "https://www.keyboardmaestro.com"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "OmniFocus"
+        description: "Professional-grade task management"
+        url: "https://www.omnigroup.com/omnifocus"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Raycast"
+        description: "Blazingly fast extendable launcher"
+        url: "https://www.raycast.com"
+        tags: [productivity]
+        price: freemium
+        status: active
+      - name: "Revu"
+        description: "Local-first spaced repetition app with FSRS scheduling, Anki import, and study guides"
+        url: "https://revu.cards"
+        tags: [productivity, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "SelfControl"
+        description: "Block distracting websites"
+        url: "https://selfcontrolapp.com"
+        tags: [productivity, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Snippety"
+        description: "Advanced snippets manager for macOS and iOS"
+        url: "https://snippety.app"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "TaskPaper"
+        description: "Plain text to-do lists"
+        url: "https://www.taskpaper.com"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Things"
+        description: "Award-winning task manager"
+        url: "https://culturedcode.com/things"
+        tags: [productivity]
+        price: paid
+        status: active
+      - name: "Tot"
+        description: "Elegant text collection on menu bar"
+        url: "https://tot.rocks"
+        tags: [productivity]
+        price: freemium
+        status: active
+      - name: "Speakmac"
+        description: "Offline hotkey dictation for macOS that types into any app using on-device transcription"
+        url: "https://www.speakmac.app"
+        tags: [productivity]
+        price: paid
+        status: active
+  - id: screenshot-recording
+    name: "Screenshot & Recording"
+    description: "Native macOS apps for screenshot & recording."
+    apps:
+      - name: "BetterCapture"
+        description: "A lightweight, and intuitive screen recorder with a native look and feel"
+        url: "https://bettercapture.app"
+        tags: [screenshot, recording, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "CleanShot X"
+        description: "Capture your Mac's screen like a pro"
+        url: "https://cleanshot.com"
+        tags: [screenshot, recording]
+        price: paid
+        status: active
+      - name: "Gifox"
+        description: "Delightful GIF recording and sharing"
+        url: "https://gifox.app"
+        tags: [screenshot, recording]
+        price: paid
+        status: active
+      - name: "Kap"
+        description: "Open-source screen recorder"
+        url: "https://getkap.co"
+        tags: [screenshot, recording, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "ScreenFloat"
+        description: "Screenshot utility with floating thumbnails"
+        url: "https://eternalstorms.at/screenfloat"
+        tags: [screenshot, recording, eu]
+        price: paid
+        status: active
+      - name: "ScreenKite"
+        description: "Screen recording and video editing with auto zoom effect. 4x faster than Screen Studio"
+        url: "https://www.screenkite.com"
+        tags: [screenshot, recording]
+        price: free
+        status: active
+      - name: "Shottr"
+        description: "Screenshot tool with advanced features"
+        url: "https://shottr.cc"
+        tags: [screenshot, recording]
+        price: free
+        status: active
+      - name: "Xnapper"
+        description: "Take beautiful screenshots instantly"
+        url: "https://xnapper.com"
+        tags: [screenshot, recording]
+        price: freemium
+        status: active
+  - id: security-privacy
+    name: "Security & Privacy"
+    description: "Native macOS apps for security & privacy."
+    apps:
+      - name: "Cryptomator"
+        description: "Multi-platform client-side encryption"
+        url: "https://cryptomator.org"
+        tags: [security, privacy, open-source, eu]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "KnockKnock"
+        description: "See what's persistently installed on your Mac"
+        url: "https://objective-see.org/products/knockknock.html"
+        tags: [security, privacy, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Little Snitch"
+        description: "Network monitor and firewall"
+        url: "https://www.obdev.at/products/littlesnitch"
+        tags: [security, privacy, eu]
+        price: paid
+        status: active
+      - name: "Lulu"
+        description: "Open-source firewall for macOS"
+        url: "https://objective-see.org/products/lulu.html"
+        tags: [security, privacy, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Micro Snitch"
+        description: "Monitor camera and microphone access"
+        url: "https://www.obdev.at/products/microsnitch"
+        tags: [security, privacy, eu]
+        price: paid
+        status: active
+      - name: "OverSight"
+        description: "Monitor mic and webcam access"
+        url: "https://objective-see.org/products/oversight.html"
+        tags: [security, privacy, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: system-utilities
+    name: "System Utilities"
+    description: "Native macOS apps for system utilities."
+    apps:
+      - name: "AlDente"
+        description: "Charge limiter to extend MacBook battery life"
+        url: "https://github.com/AppHouseKitchen/AlDente-Charge-Limiter"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: freemium
+        status: active
+      - name: "AppCleaner"
+        description: "Thoroughly uninstall unwanted apps"
+        url: "https://freemacsoft.net/appcleaner"
+        tags: [system, utilities]
+        price: free
+        status: active
+      - name: "Background Music"
+        description: "Control audio per-application"
+        url: "https://github.com/kyleneideck/BackgroundMusic"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "coconutBattery"
+        description: "Check battery health and status"
+        url: "https://www.coconut-flavour.com/coconutbattery"
+        tags: [system, utilities]
+        price: free
+        status: active
+      - name: "ClearDisk"
+        description: "macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space"
+        url: "https://github.com/bysiber/cleardisk"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "DaisyDisk"
+        description: "Analyze disk usage and free up space"
+        url: "https://daisydiskapp.com"
+        tags: [system, utilities]
+        price: paid
+        status: active
+      - name: "MacPacker"
+        description: "Archive manager for macOS"
+        url: "https://github.com/sarensw/MacPacker"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "MonitorControl"
+        description: "Control external monitor brightness & volume like native displays"
+        url: "https://github.com/MonitorControl/MonitorControl"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "DisplayBuddy"
+        description: "Control the real brightness of monitors directly from Mac"
+        url: "https://displaybuddy.app"
+        tags: [system, utilities]
+        price: paid
+        status: active
+      - name: "Endurance"
+        description: "Extend your MacBook's battery life"
+        url: "https://enduranceapp.com"
+        tags: [system, utilities]
+        price: paid
+        status: active
+      - name: "EtreCheck"
+        description: "System configuration and diagnostic reporting"
+        url: "https://etrecheck.com"
+        tags: [system, utilities]
+        price: free
+        status: active
+      - name: "Hand Mirror"
+        description: "One-click camera check from menu bar"
+        url: "https://handmirror.app"
+        tags: [system, utilities]
+        price: free
+        status: active
+      - name: "iStat Menus"
+        description: "Advanced Mac system monitor"
+        url: "https://bjango.com/mac/istatmenus"
+        tags: [system, utilities]
+        price: paid
+        status: active
+      - name: "LinearMouse"
+        description: "The mouse and trackpad utility for Mac"
+        url: "https://linearmouse.app"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Lungo"
+        description: "Prevent your Mac from going to sleep"
+        url: "https://sindresorhus.com/lungo"
+        tags: [system, utilities]
+        price: paid
+        status: active
+      - name: "Onyx"
+        description: "Multifunction utility for macOS"
+        url: "https://www.titanium-software.fr/en/onyx.html"
+        tags: [system, utilities, eu]
+        price: free
+        status: active
+      - name: "Pearcleaner"
+        description: "Powerful Mac app cleaner"
+        url: "https://pearcleaner.com"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Rectangle"
+        description: "Window management with keyboard shortcuts"
+        url: "https://rectangleapp.com"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Stats"
+        description: "macOS system monitor"
+        url: "https://github.com/exelban/stats"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "The Unarchiver"
+        description: "Extract many archive formats"
+        url: "https://theunarchiver.com"
+        tags: [system, utilities]
+        price: free
+        status: active
+  - id: terminal-shell
+    name: "Terminal & Shell"
+    description: "Native macOS apps for terminal & shell."
+    apps:
+      - name: "Alacritty"
+        description: "GPU-accelerated terminal emulator"
+        url: "https://alacritty.org"
+        tags: [terminal, shell, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Ghostty"
+        description: "Fast, feature-rich GPU-based terminal"
+        url: "https://github.com/ghostty-org/ghostty"
+        tags: [terminal, shell, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "iTerm2"
+        description: "Terminal emulator for macOS"
+        url: "https://iterm2.com"
+        tags: [terminal, shell, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Kitty"
+        description: "Fast, feature-rich GPU-based terminal"
+        url: "https://sw.kovidgoyal.net/kitty"
+        tags: [terminal, shell, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Warp"
+        description: "Rust-based terminal with modern features"
+        url: "https://www.warp.dev"
+        tags: [terminal, shell]
+        price: free
+        status: active
+  - id: text-editors
+    name: "Text Editors"
+    description: "Native macOS apps for text editors."
+    apps:
+      - name: "BBEdit"
+        description: "Professional text and code editor"
+        url: "https://www.barebones.com/products/bbedit"
+        tags: [text, editors]
+        price: paid
+        status: active
+      - name: "CodeEdit"
+        description: "Native code editor for macOS"
+        url: "https://github.com/CodeEditApp/CodeEdit"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "CotEditor"
+        description: "Lightweight plain-text editor"
+        url: "https://coteditor.com"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Itsypad"
+        description: "A tiny, fast scratchpad and clipboard manager"
+        url: "https://github.com/nickustinov/itsypad-macos"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "MacVim"
+        description: "Vim text editor for macOS"
+        url: "https://macvim.org"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Neon Vision Editor"
+        description: "A lightweight and modern macOS code editor"
+        url: "https://github.com/h3pdesign/Neon-Vision-Editor"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Nova"
+        description: "Beautiful native code editor from Panic"
+        url: "https://nova.app"
+        tags: [text, editors]
+        price: paid
+        status: active
+      - name: "SubEthaEdit"
+        description: "Code, write, and edit with collaborative features"
+        url: "https://subethaedit.net"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "TextMate"
+        description: "Powerful text editor for macOS"
+        url: "https://macromates.com"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "VimR"
+        description: "Neovim GUI for macOS"
+        url: "https://github.com/qvacua/vimr"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Zed"
+        description: "Rust-based code editor built"
+        url: "https://github.com/zed-industries/zed"
+        tags: [text, editors, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: video-media
+    name: "Video & Media"
+    description: "Native macOS apps for video & media."
+    apps:
+      - name: "HandBrake"
+        description: "Open source video transcoder"
+        url: "https://handbrake.fr"
+        tags: [video, media, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "IINA"
+        description: "Modern media player for macOS"
+        url: "https://iina.io"
+        tags: [video, media, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Kaset"
+        description: "Native YouTube Music client for macOS"
+        url: "https://github.com/sozercan/kaset"
+        tags: [video, media, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Itsytv"
+        description: "The missing Apple TV remote app"
+        url: "https://github.com/nickustinov/itsytv-macos"
+        tags: [video, media, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Movist Pro"
+        description: "Powerful movie player for macOS"
+        url: "https://movistprime.com"
+        tags: [video, media]
+        price: paid
+        status: active
+      - name: "Permute"
+        description: "Easy-to-use media converter"
+        url: "https://software.charliemonroe.net/permute"
+        tags: [video, media]
+        price: paid
+        status: active
+      - name: "Subler"
+        description: "Mux and tag MP4 files"
+        url: "https://subler.org"
+        tags: [video, media, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "VLC"
+        description: "Cross-platform multimedia player"
+        url: "https://www.videolan.org/vlc"
+        tags: [video, media, open-source, eu]
+        license: "Open Source"
+        price: free
+        status: active
+  - id: vpn-client
+    name: "VPN Client"
+    description: "Native macOS apps for vpn client."
+    apps:
+      - name: "Passepartout"
+        description: "Your go-to app for VPN and privacy"
+        url: "https://github.com/partout-io/passepartout"
+        tags: [vpn, client, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Tunnelblick"
+        description: "OpenVPN Client"
+        url: "https://github.com/Tunnelblick/Tunnelblick"
+        tags: [vpn, client, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Viscosity"
+        description: "OpenVPN Client"
+        url: "https://www.sparklabs.com/viscosity"
+        tags: [vpn, client]
+        price: paid
+        status: active
+  - id: wallpaper-apps
+    name: "Wallpaper Apps"
+    description: "Native macOS apps for wallpaper apps."
+    apps:
+      - name: "Wallspace"
+        description: "Live Wallpapers for Macos, with custom lock screen"
+        url: "https://wallspace.app"
+        tags: [wallpaper, apps]
+        price: freemium
+        status: active
+  - id: window-management
+    name: "Window Management"
+    description: "Native macOS apps for window management."
+    apps:
+      - name: "Amethyst"
+        description: "Automatic tiling window manager"
+        url: "https://ianyh.com/amethyst"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "BetterSnapTool"
+        description: "Window management via snap areas"
+        url: "https://folivora.ai/bettersnaptool"
+        tags: [window, management, eu]
+        price: paid
+        status: active
+      - name: "Divvy"
+        description: "Window management at its finest"
+        url: "https://mizage.com/divvy"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Loop"
+        description: "Window management made elegant"
+        url: "https://github.com/MrKai77/Loop"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Magnet"
+        description: "Window manager that snaps windows into position"
+        url: "https://magnet.crowdcafe.com"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Moom"
+        description: "Move and zoom windows with ease"
+        url: "https://manytricks.com/moom"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Nudge"
+        description: "Free window manager with keyboard shortcuts and drag-to-edge snapping"
+        url: "https://nudge.run"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Rectangle"
+        description: "Window snapping via keyboard shortcuts"
+        url: "https://rectangleapp.com"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "Rectangle Pro"
+        description: "Professional window management"
+        url: "https://rectangleapp.com/pro"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Swish"
+        description: "Control windows with trackpad gestures"
+        url: "https://highlyopinionated.co/swish"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Wins"
+        description: "Bring system-level window management features to macOS"
+        url: "https://wins.cool"
+        tags: [window, management]
+        price: paid
+        status: active
+      - name: "Yabai"
+        description: "Tiling window manager for macOS"
+        url: "https://github.com/koekeishiya/yabai"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
