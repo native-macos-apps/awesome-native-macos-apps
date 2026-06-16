@@ -90,8 +90,9 @@ This project is a curated library of **native macOS applications**—built using
 - [Sip](https://sipapp.io) - Collect, organize and share colors. `Paid`
 
 ## Database Tools
-- [Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) - MySQL/MariaDB database management for macOS. `Free` `Open Source`
+
 - [Postico](https://eggerapps.at/postico2) - Modern PostgreSQL client for macOS. `Paid` `EU`
+- [Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) - MySQL/MariaDB database management for macOS. `Free` `Open Source`
 - [TablePlus](https://tableplus.com) - Modern native database management tool. `Freemium`
 - [TablePro](https://tablepro.app) - Native database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and more. `Free` `Open Source`
 
@@ -104,7 +105,7 @@ This project is a curated library of **native macOS applications**—built using
 
 ## Developer Tools
 
-- [BucketMate](https://bucketmate.app) - Native S3 GUI Client for macOS `Freemium`
+- [BucketMate](https://bucketmate.app) - Native S3 GUI Client for macOS. `Freemium`
 - [CodeEdit](https://github.com/CodeEditApp/CodeEdit) - Native code editor for macOS. `Free` `Open Source`
 - [DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) - Clean Xcode cache and derived data. `Free` `Open Source`
 - [DevUtils](https://devutils.com) - All-in-one offline toolbox for developers (42+ tools). `Freemium`
@@ -113,8 +114,8 @@ This project is a curated library of **native macOS applications**—built using
 - [Proxyman](https://proxyman.io) - Native HTTP debugging proxy. `Freemium`
 - [RocketSim](https://www.rocketsim.app) - Enhance Xcode Simulator productivity. `Freemium`
 - [Rockxy](https://rockxy.io) - macOS HTTP/HTTPS debugging proxy to capture, inspect, modify, and replay traffic. `Freemium` `Open Source`
-- [SSH Keys Manager](https://github.com/Stmol/ssh-keys-manager-macos-app) - Native macOS app for managing SSH keys and SSH config entries. `Free` `Open Source`
 - [SF Symbols](https://developer.apple.com/sf-symbols) - Browse and export Apple's SF Symbols. `Free`
+- [SSH Keys Manager](https://github.com/Stmol/ssh-keys-manager-macos-app) - Native macOS app for managing SSH keys and SSH config entries. `Free` `Open Source`
 
 ## Email & Communication
 
@@ -132,12 +133,12 @@ This project is a curated library of **native macOS applications**—built using
 ## File Management
 
 - [Commander One](https://mac.eltima.com/file-manager.html) - Dual-pane file manager for macOS. `Freemium`
+- [Encrypto](https://macpaw.com/encrypto) - Encrypt files with AES-256 encryption. `Free`
 - [ForkLift](https://binarynights.com) - Advanced dual-pane file manager and FTP client. `Paid`
 - [Hazel](https://www.noodlesoft.com) - Automated organization for your Mac. `Paid`
 - [NameQuick](https://www.namequick.app) - AI-powered file renaming using GPT, Gemini, or local LLMs. `Paid`
 - [Path Finder](https://www.cocoatech.io) - Powerful Finder alternative. `Paid`
 - [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins) - Useful Quick Look plugins for developers. `Free` `Open Source`
-- [Encrypto](https://macpaw.com/encrypto) - Encrypt files with AES-256 encryption. `Free`
 - [Transmit](https://panic.com/transmit) - File transfer apps. `Paid`
 
 ## Git & Version Control
@@ -186,7 +187,7 @@ This project is a curated library of **native macOS applications**—built using
 - [SaneBar](https://sanebar.com) - Privacy-first menu bar manager. Hide and organize icons. `Freemium`
 - [Stargazer Bar](https://jazzyalex.github.io/stargazer-bar) - Track one public GitHub repo's stars and release downloads from your menu bar. `Free` `Open Source`
 - [Thaw](https://github.com/stonerl/Thaw) - Powerful menu bar management tool. Fork of Ice, lower resource usage. `Free` `Open Source`
-- [TickerPad](https://tickerpad.app) - Real-time crypto prices in your macOS menu bar.  `Freemium`
+- [TickerPad](https://tickerpad.app) - Real-time crypto prices in your macOS menu bar. `Freemium`
 
 ## Messaging
 
@@ -223,8 +224,8 @@ This project is a curated library of **native macOS applications**—built using
 
 ## PDF Tools
 
-- [PDFgear](https://www.pdfgear.com) - Free PDF editor for macOS. `Free`
 - [PDF Expert](https://pdfexpert.com) - Fast, robust PDF editor. `Paid`
+- [PDFgear](https://www.pdfgear.com) - Free PDF editor for macOS. `Free`
 - [PDFpenPro](https://pdfpen.com) - Professional PDF editing for Mac. `Paid`
 - [Skim](https://skim-app.sourceforge.io) - PDF reader and note-taker. `Free` `Open Source`
 
@@ -241,10 +242,10 @@ This project is a curated library of **native macOS applications**—built using
 - [Revu](https://revu.cards) - Local-first spaced repetition app with FSRS scheduling, Anki import, and study guides. `Free` `Open Source`
 - [SelfControl](https://selfcontrolapp.com) - Block distracting websites. `Free` `Open Source`
 - [Snippety](https://snippety.app) - Advanced snippets manager for macOS and iOS. `Paid`
+- [Speakmac](https://www.speakmac.app) - Offline hotkey dictation for macOS that types into any app using on-device transcription. `One-Time Subscription`
 - [TaskPaper](https://www.taskpaper.com) - Plain text to-do lists. `Paid`
 - [Things](https://culturedcode.com/things) - Award-winning task manager. `Paid`
 - [Tot](https://tot.rocks) - Elegant text collection on menu bar. `Freemium`
-- [Speakmac](https://www.speakmac.app) - Offline hotkey dictation for macOS that types into any app using on-device transcription. `One-Time Subscription`
 
 ## Screenshot & Recording
 
@@ -271,11 +272,9 @@ This project is a curated library of **native macOS applications**—built using
 - [AlDente](https://github.com/AppHouseKitchen/AlDente-Charge-Limiter) - Charge limiter to extend MacBook battery life. `Freemium` `Open Source`
 - [AppCleaner](https://freemacsoft.net/appcleaner) - Thoroughly uninstall unwanted apps. `Free`
 - [Background Music](https://github.com/kyleneideck/BackgroundMusic) - Control audio per-application. `Free` `Open Source`
-- [coconutBattery](https://www.coconut-flavour.com/coconutbattery) - Check battery health and status. `Free`
 - [ClearDisk](https://github.com/bysiber/cleardisk) - macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space. `Free` `Open Source`
+- [coconutBattery](https://www.coconut-flavour.com/coconutbattery) - Check battery health and status. `Free`
 - [DaisyDisk](https://daisydiskapp.com) - Analyze disk usage and free up space. `Paid`
-- [MacPacker](https://github.com/sarensw/MacPacker) - Archive manager for macOS. `Free` `Open Source`
-- [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control external monitor brightness & volume like native displays. `Free` `Open Source`
 - [DisplayBuddy](https://displaybuddy.app) - Control the real brightness of monitors directly from Mac. `Paid`
 - [Endurance](https://enduranceapp.com) - Extend your MacBook's battery life. `Paid`
 - [EtreCheck](https://etrecheck.com) - System configuration and diagnostic reporting. `Free`
@@ -283,8 +282,10 @@ This project is a curated library of **native macOS applications**—built using
 - [iStat Menus](https://bjango.com/mac/istatmenus) - Advanced Mac system monitor. `Paid`
 - [LinearMouse](https://linearmouse.app) - The mouse and trackpad utility for Mac. `Free` `Open Source`
 - [Lungo](https://sindresorhus.com/lungo) - Prevent your Mac from going to sleep. `Paid`
+- [MacPacker](https://github.com/sarensw/MacPacker) - Archive manager for macOS. `Free` `Open Source`
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl) - Control external monitor brightness & volume like native displays. `Free` `Open Source`
 - [Onyx](https://www.titanium-software.fr/en/onyx.html) - Multifunction utility for macOS. `Free` `EU`
-- [Pearcleaner](https://pearcleaner.com) - Powerful Mac app cleaner `Free` `Open Source`
+- [Pearcleaner](https://pearcleaner.com) - Powerful Mac app cleaner. `Free` `Open Source`
 - [Rectangle](https://rectangleapp.com) - Window management with keyboard shortcuts. `Free` `Open Source`
 - [Stats](https://github.com/exelban/stats) - macOS system monitor. `Free` `Open Source`
 - [The Unarchiver](https://theunarchiver.com) - Extract many archive formats. `Free`
@@ -307,6 +308,7 @@ This project is a curated library of **native macOS applications**—built using
 - [Neon Vision Editor](https://github.com/h3pdesign/Neon-Vision-Editor) - A lightweight and modern macOS code editor. `Free` `Open Source`
 - [Nova](https://nova.app) - Beautiful native code editor from Panic. `Paid`
 - [SubEthaEdit](https://subethaedit.net) - Code, write, and edit with collaborative features. `Free` `Open Source`
+- [Sublime Text](https://www.sublimetext.com) - Sophisticated text editor for code, markup and prose. `Paid`
 - [TextMate](https://macromates.com) - Powerful text editor for macOS. `Free` `Open Source`
 - [VimR](https://github.com/qvacua/vimr) - Neovim GUI for macOS. `Free` `Open Source`
 - [Zed](https://github.com/zed-industries/zed) - Rust-based code editor built. `Free` `Open Source`
@@ -315,8 +317,8 @@ This project is a curated library of **native macOS applications**—built using
 
 - [HandBrake](https://handbrake.fr) - Open source video transcoder. `Free` `Open Source`
 - [IINA](https://iina.io) - Modern media player for macOS. `Free` `Open Source`
-- [Kaset](https://github.com/sozercan/kaset) - Native YouTube Music client for macOS. `Free` `Open Source`
 - [Itsytv](https://github.com/nickustinov/itsytv-macos) - The missing Apple TV remote app. `Free` `Open Source`
+- [Kaset](https://github.com/sozercan/kaset) - Native YouTube Music client for macOS. `Free` `Open Source`
 - [Movist Pro](https://movistprime.com) - Powerful movie player for macOS. `Paid`
 - [Permute](https://software.charliemonroe.net/permute) - Easy-to-use media converter. `Paid`
 - [Subler](https://subler.org) - Mux and tag MP4 files. `Free` `Open Source`

@@ -199,18 +199,18 @@ categories:
     name: "Database Tools"
     description: "Native macOS apps for database tools."
     apps:
+      - name: "Postico"
+        description: "Modern PostgreSQL client for macOS"
+        url: "https://eggerapps.at/postico2"
+        tags: [database, tools, eu]
+        price: paid
+        status: active
       - name: "Sequel-Ace"
         description: "MySQL/MariaDB database management for macOS"
         url: "https://github.com/Sequel-Ace/Sequel-Ace"
         tags: [database, tools, open-source]
         license: "Open Source"
         price: free
-        status: active
-      - name: "Postico"
-        description: "Modern PostgreSQL client for macOS"
-        url: "https://eggerapps.at/postico2"
-        tags: [database, tools, eu]
-        price: paid
         status: active
       - name: "TablePlus"
         description: "Modern native database management tool"
@@ -315,17 +315,17 @@ categories:
         license: "Open Source"
         price: freemium
         status: active
+      - name: "SF Symbols"
+        description: "Browse and export Apple's SF Symbols"
+        url: "https://developer.apple.com/sf-symbols"
+        tags: [developer, tools]
+        price: free
+        status: active
       - name: "SSH Keys Manager"
         description: "Native macOS app for managing SSH keys and SSH config entries"
         url: "https://github.com/Stmol/ssh-keys-manager-macos-app"
         tags: [developer, tools, open-source]
         license: "Open Source"
-        price: free
-        status: active
-      - name: "SF Symbols"
-        description: "Browse and export Apple's SF Symbols"
-        url: "https://developer.apple.com/sf-symbols"
-        tags: [developer, tools]
         price: free
         status: active
   - id: email-communication
@@ -388,6 +388,12 @@ categories:
         tags: [file, management]
         price: freemium
         status: active
+      - name: "Encrypto"
+        description: "Encrypt files with AES-256 encryption"
+        url: "https://macpaw.com/encrypto"
+        tags: [file, management]
+        price: free
+        status: active
       - name: "ForkLift"
         description: "Advanced dual-pane file manager and FTP client"
         url: "https://binarynights.com"
@@ -417,12 +423,6 @@ categories:
         url: "https://github.com/sindresorhus/quick-look-plugins"
         tags: [file, management, open-source]
         license: "Open Source"
-        price: free
-        status: active
-      - name: "Encrypto"
-        description: "Encrypt files with AES-256 encryption"
-        url: "https://macpaw.com/encrypto"
-        tags: [file, management]
         price: free
         status: active
       - name: "Transmit"
@@ -831,17 +831,17 @@ categories:
     name: "PDF Tools"
     description: "Native macOS apps for pdf tools."
     apps:
-      - name: "PDFgear"
-        description: "Free PDF editor for macOS"
-        url: "https://www.pdfgear.com"
-        tags: [pdf, tools]
-        price: free
-        status: active
       - name: "PDF Expert"
         description: "Fast, robust PDF editor"
         url: "https://pdfexpert.com"
         tags: [pdf, tools]
         price: paid
+        status: active
+      - name: "PDFgear"
+        description: "Free PDF editor for macOS"
+        url: "https://www.pdfgear.com"
+        tags: [pdf, tools]
+        price: free
         status: active
       - name: "PDFpenPro"
         description: "Professional PDF editing for Mac"
@@ -928,6 +928,12 @@ categories:
         tags: [productivity]
         price: paid
         status: active
+      - name: "Speakmac"
+        description: "Offline hotkey dictation for macOS that types into any app using on-device transcription"
+        url: "https://www.speakmac.app"
+        tags: [productivity]
+        price: paid
+        status: active
       - name: "TaskPaper"
         description: "Plain text to-do lists"
         url: "https://www.taskpaper.com"
@@ -945,12 +951,6 @@ categories:
         url: "https://tot.rocks"
         tags: [productivity]
         price: freemium
-        status: active
-      - name: "Speakmac"
-        description: "Offline hotkey dictation for macOS that types into any app using on-device transcription"
-        url: "https://www.speakmac.app"
-        tags: [productivity]
-        price: paid
         status: active
   - id: screenshot-recording
     name: "Screenshot & Recording"
@@ -1074,12 +1074,6 @@ categories:
         license: "Open Source"
         price: free
         status: active
-      - name: "coconutBattery"
-        description: "Check battery health and status"
-        url: "https://www.coconut-flavour.com/coconutbattery"
-        tags: [system, utilities]
-        price: free
-        status: active
       - name: "ClearDisk"
         description: "macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space"
         url: "https://github.com/bysiber/cleardisk"
@@ -1087,25 +1081,17 @@ categories:
         license: "Open Source"
         price: free
         status: active
+      - name: "coconutBattery"
+        description: "Check battery health and status"
+        url: "https://www.coconut-flavour.com/coconutbattery"
+        tags: [system, utilities]
+        price: free
+        status: active
       - name: "DaisyDisk"
         description: "Analyze disk usage and free up space"
         url: "https://daisydiskapp.com"
         tags: [system, utilities]
         price: paid
-        status: active
-      - name: "MacPacker"
-        description: "Archive manager for macOS"
-        url: "https://github.com/sarensw/MacPacker"
-        tags: [system, utilities, open-source]
-        license: "Open Source"
-        price: free
-        status: active
-      - name: "MonitorControl"
-        description: "Control external monitor brightness & volume like native displays"
-        url: "https://github.com/MonitorControl/MonitorControl"
-        tags: [system, utilities, open-source]
-        license: "Open Source"
-        price: free
         status: active
       - name: "DisplayBuddy"
         description: "Control the real brightness of monitors directly from Mac"
@@ -1149,6 +1135,20 @@ categories:
         url: "https://sindresorhus.com/lungo"
         tags: [system, utilities]
         price: paid
+        status: active
+      - name: "MacPacker"
+        description: "Archive manager for macOS"
+        url: "https://github.com/sarensw/MacPacker"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "MonitorControl"
+        description: "Control external monitor brightness & volume like native displays"
+        url: "https://github.com/MonitorControl/MonitorControl"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
         status: active
       - name: "Onyx"
         description: "Multifunction utility for macOS"
@@ -1279,6 +1279,12 @@ categories:
         license: "Open Source"
         price: free
         status: active
+      - name: "Sublime Text"
+        description: "Sophisticated text editor for code, markup and prose"
+        url: "https://www.sublimetext.com"
+        tags: [text, editors]
+        price: paid
+        status: active
       - name: "TextMate"
         description: "Powerful text editor for macOS"
         url: "https://macromates.com"
@@ -1318,16 +1324,16 @@ categories:
         license: "Open Source"
         price: free
         status: active
-      - name: "Kaset"
-        description: "Native YouTube Music client for macOS"
-        url: "https://github.com/sozercan/kaset"
+      - name: "Itsytv"
+        description: "The missing Apple TV remote app"
+        url: "https://github.com/nickustinov/itsytv-macos"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
         status: active
-      - name: "Itsytv"
-        description: "The missing Apple TV remote app"
-        url: "https://github.com/nickustinov/itsytv-macos"
+      - name: "Kaset"
+        description: "Native YouTube Music client for macOS"
+        url: "https://github.com/sozercan/kaset"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
