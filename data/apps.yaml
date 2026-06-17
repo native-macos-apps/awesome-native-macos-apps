@@ -258,19 +258,6 @@ categories:
     name: "Developer Tools"
     description: "Native macOS apps for developer tools."
     apps:
-      - name: "BucketMate"
-        description: "Native S3 GUI Client for macOS"
-        url: "https://bucketmate.app"
-        tags: [developer, tools]
-        price: freemium
-        status: active
-      - name: "CodeEdit"
-        description: "Native code editor for macOS"
-        url: "https://github.com/CodeEditApp/CodeEdit"
-        tags: [developer, tools, open-source]
-        license: "Open Source"
-        price: free
-        status: active
       - name: "DevCleaner"
         description: "Clean Xcode cache and derived data"
         url: "https://github.com/vashpan/xcode-dev-cleaner"
@@ -296,23 +283,10 @@ categories:
         tags: [developer, tools]
         price: paid
         status: active
-      - name: "Proxyman"
-        description: "Native HTTP debugging proxy"
-        url: "https://proxyman.io"
-        tags: [developer, tools]
-        price: freemium
-        status: active
       - name: "RocketSim"
         description: "Enhance Xcode Simulator productivity"
         url: "https://www.rocketsim.app"
         tags: [developer, tools]
-        price: freemium
-        status: active
-      - name: "Rockxy"
-        description: "macOS HTTP/HTTPS debugging proxy to capture, inspect, modify, and replay traffic"
-        url: "https://rockxy.io"
-        tags: [developer, tools, open-source]
-        license: "Open Source"
         price: freemium
         status: active
       - name: "SF Symbols"
@@ -382,11 +356,23 @@ categories:
     name: "File Management"
     description: "Native macOS apps for file management."
     apps:
+      - name: "BucketMate"
+        description: "Native S3 GUI Client for macOS"
+        url: "https://bucketmate.app"
+        tags: [developer, tools, transfer]
+        price: freemium
+        status: active
       - name: "Commander One"
         description: "Dual-pane file manager for macOS"
         url: "https://mac.eltima.com/file-manager.html"
-        tags: [file, management]
+        tags: [file, management, transfer]
         price: freemium
+        status: active
+      - name: "CloudMounter"
+        description: "Manage your multiple cloud files"
+        url: "https://cloudmounter.net"
+        tags: [file, management, transfer]
+        price: paid
         status: active
       - name: "Encrypto"
         description: "Encrypt files with AES-256 encryption"
@@ -428,7 +414,7 @@ categories:
       - name: "Transmit"
         description: "File transfer apps"
         url: "https://panic.com/transmit"
-        tags: [file, management]
+        tags: [file, management, transfer]
         price: paid
         status: active
   - id: git-version-control
@@ -717,6 +703,19 @@ categories:
         tags: [network, tools, open-source]
         license: "Open Source"
         price: free
+        status: active
+      - name: "Proxyman"
+        description: "Native HTTP debugging proxy"
+        url: "https://proxyman.io"
+        tags: [developer, tools]
+        price: freemium
+        status: active
+      - name: "Rockxy"
+        description: "macOS HTTP/HTTPS debugging proxy to capture, inspect, modify, and replay traffic"
+        url: "https://rockxy.io"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: freemium
         status: active
       - name: "Surge"
         description: "Advanced network toolbox for Mac"
