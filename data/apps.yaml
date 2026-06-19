@@ -1343,6 +1343,13 @@ categories:
         tags: [video, media]
         price: paid
         status: active
+      - name: "Palmier Pro"
+        description: "Open-source native video editor designed for AI-assisted workflows"
+        url: "https://github.com/palmier-io/palmier-pro"
+        tags: [video, media, open-source, ai]
+        license: "Open Source"
+        price: freemium
+        status: active
       - name: "Permute"
         description: "Easy-to-use media converter"
         url: "https://software.charliemonroe.net/permute"
