@@ -6,12 +6,14 @@ categories:
       - name: "iStat Menus"
         description: "Advanced Mac system monitor in your menu bar"
         url: "https://bjango.com/mac/istatmenus"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bjango.com"
         tags: [analytics, monitoring]
         price: paid
         status: active
       - name: "Stats"
         description: "macOS system monitor for CPU, GPU, memory, disk, and more"
         url: "https://github.com/exelban/stats"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [analytics, monitoring, open-source]
         license: "Open Source"
         price: free
@@ -19,6 +21,7 @@ categories:
       - name: "Usage"
         description: "System activity monitor for macOS, iOS, and iPadOS"
         url: "https://usage.pro"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=usage.pro"
         tags: [analytics, monitoring]
         price: freemium
         status: active
@@ -29,6 +32,7 @@ categories:
       - name: "BackgroundMusic"
         description: "macOS audio utility to control volume per-app"
         url: "https://github.com/kyleneideck/BackgroundMusic"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -36,6 +40,7 @@ categories:
       - name: "Cog"
         description: "Audio player for macOS with broad format support"
         url: "https://cog.losno.co"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=cog.losno.co"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -43,6 +48,7 @@ categories:
       - name: "eqMac"
         description: "System-wide audio equalizer for macOS"
         url: "https://eqmac.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=eqmac.app"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -50,6 +56,7 @@ categories:
       - name: "IINA"
         description: "Modern video player with native macOS design"
         url: "https://iina.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=iina.io"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -57,12 +64,14 @@ categories:
       - name: "Muxie"
         description: "Last.fm scrobbler for Apple Music, Spotify Desktop, iPod Classic, Rockbox devices and some others"
         url: "https://muxie.duhnnie.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=muxie.duhnnie.com"
         tags: [audio, music]
         price: free
         status: active
       - name: "Petrichor"
         description: "Offline music player with support for over 20 file formats and a lot of other features"
         url: "https://github.com/kushalpandya/Petrichor"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -70,18 +79,21 @@ categories:
       - name: "Roam FM"
         description: "Roam the world through global radio"
         url: "https://roamfm.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=roamfm.app"
         tags: [audio, music]
         price: freemium
         status: active
       - name: "Sleeve"
         description: "Beautiful now playing display for Apple Music"
         url: "https://replay.software/sleeve"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=replay.software"
         tags: [audio, music]
         price: paid
         status: active
       - name: "SoundSource"
         description: "Superior sound control for macOS"
         url: "https://rogueamoeba.com/soundsource"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rogueamoeba.com"
         tags: [audio, music]
         price: paid
         status: active
@@ -92,12 +104,14 @@ categories:
       - name: "Arq"
         description: "Backup your files to cloud storage"
         url: "https://www.arqbackup.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=arqbackup.com"
         tags: [backup, sync]
         price: paid
         status: active
       - name: "Carbon Copy Cloner"
         description: "Reliable Mac backup and cloning solution"
         url: "https://bombich.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bombich.com"
         tags: [backup, sync]
         price: paid
         status: active
@@ -108,12 +122,14 @@ categories:
       - name: "Orion"
         description: "Lightweight WebKit browser with zero telemetry"
         url: "https://browser.kagi.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=browser.kagi.com"
         tags: [browsers, web]
         price: free
         status: active
       - name: "Zen Browser"
         description: "Privacy-focused, customizable browser built on Firefox"
         url: "https://zen-browser.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=zen-browser.app"
         tags: [browsers, web, open-source]
         license: "Open Source"
         price: free
@@ -125,12 +141,14 @@ categories:
       - name: "Fantastical"
         description: "Calendar app with natural language input"
         url: "https://flexibits.com/fantastical"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=flexibits.com"
         tags: [calendar, time]
         price: paid
         status: active
       - name: "Itsycal"
         description: "Tiny menu bar calendar"
         url: "https://www.mowglii.com/itsycal"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mowglii.com"
         tags: [calendar, time, open-source]
         license: "Open Source"
         price: free
@@ -138,6 +156,7 @@ categories:
       - name: "Meeting Bar"
         description: "Menu bar app for your calendar meetings"
         url: "https://github.com/leits/MeetingBar"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [calendar, time, open-source]
         license: "Open Source"
         price: free
@@ -149,6 +168,7 @@ categories:
       - name: "Clipy"
         description: "Clipboard extension app for macOS"
         url: "https://github.com/Clipy/Clipy"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [clipboard, managers, open-source]
         license: "Open Source"
         price: free
@@ -156,6 +176,7 @@ categories:
       - name: "Maccy"
         description: "Lightweight clipboard manager with search"
         url: "https://github.com/p0deje/Maccy"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [clipboard, managers, open-source]
         license: "Open Source"
         price: free
@@ -163,12 +184,14 @@ categories:
       - name: "Paste"
         description: "Beautiful clipboard manager with cloud sync"
         url: "https://pasteapp.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pasteapp.io"
         tags: [clipboard, managers]
         price: paid
         status: active
       - name: "Unclutter"
         description: "Files, notes, and clipboard manager in one"
         url: "https://unclutterapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=unclutterapp.com"
         tags: [clipboard, managers]
         price: paid
         status: active
@@ -179,12 +202,14 @@ categories:
       - name: "ColorSlurp"
         description: "Best color picker and organizer for macOS"
         url: "https://colorslurp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=colorslurp.com"
         tags: [color, pickers]
         price: freemium
         status: active
       - name: "Pika"
         description: "Beautiful color picker for macOS"
         url: "https://superhighfives.com/pika"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=superhighfives.com"
         tags: [color, pickers, open-source]
         license: "Open Source"
         price: free
@@ -192,6 +217,7 @@ categories:
       - name: "Sip"
         description: "Collect, organize and share colors"
         url: "https://sipapp.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sipapp.io"
         tags: [color, pickers]
         price: paid
         status: active
@@ -202,12 +228,14 @@ categories:
       - name: "Postico"
         description: "Modern PostgreSQL client for macOS"
         url: "https://eggerapps.at/postico2"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=eggerapps.at"
         tags: [database, tools, eu]
         price: paid
         status: active
       - name: "Sequel-Ace"
         description: "MySQL/MariaDB database management for macOS"
         url: "https://github.com/Sequel-Ace/Sequel-Ace"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [database, tools, open-source]
         license: "Open Source"
         price: free
@@ -215,12 +243,14 @@ categories:
       - name: "TablePlus"
         description: "Modern native database management tool"
         url: "https://tableplus.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=tableplus.com"
         tags: [database, tools]
         price: freemium
         status: active
       - name: "TablePro"
         description: "Native database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and more"
         url: "https://tablepro.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=tablepro.app"
         tags: [database, tools, open-source]
         license: "Open Source"
         price: free
@@ -232,6 +262,7 @@ categories:
       - name: "Blender"
         description: "Free and open-source 3D creation suite"
         url: "https://github.com/blender/blender"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [design, tools, open-source]
         license: "Open Source"
         price: free
@@ -239,18 +270,21 @@ categories:
       - name: "IconJar"
         description: "Icon management tool for designers"
         url: "https://geticonjar.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=geticonjar.com"
         tags: [design, tools]
         price: paid
         status: active
       - name: "Sketch"
         description: "Professional digital design for Mac"
         url: "https://www.sketch.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sketch.com"
         tags: [design, tools, eu]
         price: paid
         status: active
       - name: "xScope"
         description: "Measure, inspect, and test on-screen graphics"
         url: "https://xscopeapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=xscopeapp.com"
         tags: [design, tools]
         price: paid
         status: active
@@ -261,6 +295,7 @@ categories:
       - name: "DevCleaner"
         description: "Clean Xcode cache and derived data"
         url: "https://github.com/vashpan/xcode-dev-cleaner"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: free
@@ -268,36 +303,42 @@ categories:
       - name: "DevUtils"
         description: "All-in-one offline toolbox for developers (42+ tools)"
         url: "https://devutils.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=devutils.com"
         tags: [developer, tools]
         price: freemium
         status: active
       - name: "OrbStack"
         description: "Fast, light, and easy way to run Docker containers and Linux machines"
         url: "https://orbstack.dev"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=orbstack.dev"
         tags: [developer, tools]
         price: freemium
         status: active
       - name: "Paw"
         description: "Advanced API tool for Mac"
         url: "https://paw.cloud"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=paw.cloud"
         tags: [developer, tools]
         price: paid
         status: active
       - name: "RocketSim"
         description: "Enhance Xcode Simulator productivity"
         url: "https://www.rocketsim.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rocketsim.app"
         tags: [developer, tools]
         price: freemium
         status: active
       - name: "SF Symbols"
         description: "Browse and export Apple's SF Symbols"
         url: "https://developer.apple.com/sf-symbols"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=developer.apple.com"
         tags: [developer, tools]
         price: free
         status: active
       - name: "SSH Keys Manager"
         description: "Native macOS app for managing SSH keys and SSH config entries"
         url: "https://github.com/Stmol/ssh-keys-manager-macos-app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: free
@@ -309,18 +350,21 @@ categories:
       - name: "Airmail"
         description: "Lightning fast mail client for Mac"
         url: "https://airmailapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=airmailapp.com"
         tags: [email, communication, eu]
         price: paid
         status: active
       - name: "MailMate"
         description: "Advanced IMAP email client with keyboard control"
         url: "https://freron.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=freron.com"
         tags: [email, communication]
         price: paid
         status: active
       - name: "Mimestream"
         description: "Native Gmail client for macOS"
         url: "https://mimestream.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mimestream.com"
         tags: [email, communication]
         price: paid
         status: active
@@ -331,24 +375,28 @@ categories:
       - name: "Chronicle"
         description: "Bill organizer and payment tracker"
         url: "https://chronicleapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=chronicleapp.com"
         tags: [finance]
         price: paid
         status: active
       - name: "Copilot"
         description: "Personal finance and budgeting app with automatic transaction syncing"
         url: "https://www.copilot.money"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=copilot.money"
         tags: [finance]
         price: paid
         status: active
       - name: "Soulver"
         description: "Smart notepad calculator that understands plain English math"
         url: "https://soulver.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=soulver.app"
         tags: [finance, eu]
         price: paid
         status: active
       - name: "Subscription Day"
         description: "Track your paid subscriptions and analyze spending statistics"
         url: "https://subsday.appps.od.ua"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=subsday.appps.od.ua"
         tags: [finance]
         price: freemium
         status: active
@@ -359,54 +407,63 @@ categories:
       - name: "BucketMate"
         description: "Native S3 GUI Client for macOS"
         url: "https://bucketmate.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bucketmate.app"
         tags: [developer, tools, transfer]
         price: freemium
         status: active
       - name: "Commander One"
         description: "Dual-pane file manager for macOS"
         url: "https://mac.eltima.com/file-manager.html"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mac.eltima.com"
         tags: [file, management, transfer]
         price: freemium
         status: active
       - name: "CloudMounter"
         description: "Manage your multiple cloud files"
         url: "https://cloudmounter.net"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=cloudmounter.net"
         tags: [file, management, transfer]
         price: paid
         status: active
       - name: "Encrypto"
         description: "Encrypt files with AES-256 encryption"
         url: "https://macpaw.com/encrypto"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macpaw.com"
         tags: [file, management]
         price: free
         status: active
       - name: "ForkLift"
         description: "Advanced dual-pane file manager and FTP client"
         url: "https://binarynights.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=binarynights.com"
         tags: [file, management]
         price: paid
         status: active
       - name: "Hazel"
         description: "Automated organization for your Mac"
         url: "https://www.noodlesoft.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=noodlesoft.com"
         tags: [file, management]
         price: paid
         status: active
       - name: "NameQuick"
         description: "AI-powered file renaming using GPT, Gemini, or local LLMs"
         url: "https://www.namequick.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=namequick.app"
         tags: [file, management]
         price: paid
         status: active
       - name: "Path Finder"
         description: "Powerful Finder alternative"
         url: "https://www.cocoatech.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=cocoatech.io"
         tags: [file, management]
         price: paid
         status: active
       - name: "Quick Look plugins"
         description: "Useful Quick Look plugins for developers"
         url: "https://github.com/sindresorhus/quick-look-plugins"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [file, management, open-source]
         license: "Open Source"
         price: free
@@ -414,6 +471,7 @@ categories:
       - name: "Transmit"
         description: "File transfer apps"
         url: "https://panic.com/transmit"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=panic.com"
         tags: [file, management, transfer]
         price: paid
         status: active
@@ -424,6 +482,7 @@ categories:
       - name: "Changes"
         description: "Open-source GUI Git client for macOS"
         url: "https://github.com/maoyama/Changes"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [git, version, control, open-source]
         license: "Open Source"
         price: free
@@ -431,18 +490,21 @@ categories:
       - name: "Fork"
         description: "Fast and friendly Git client for Mac"
         url: "https://git-fork.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=git-fork.com"
         tags: [git, version, control]
         price: free
         status: active
       - name: "GitFox"
         description: "Git client with a focus on simplicity"
         url: "https://www.gitfox.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=gitfox.app"
         tags: [git, version, control]
         price: paid
         status: active
       - name: "GitUp"
         description: "Git interface you've been missing"
         url: "https://gitup.co"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=gitup.co"
         tags: [git, version, control, open-source]
         license: "Open Source"
         price: free
@@ -450,12 +512,14 @@ categories:
       - name: "SourceTree"
         description: "Free Git client from Atlassian"
         url: "https://www.sourcetreeapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sourcetreeapp.com"
         tags: [git, version, control]
         price: free
         status: active
       - name: "Tower"
         description: "Powerful Git client for Mac"
         url: "https://www.git-tower.com/mac"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=git-tower.com"
         tags: [git, version, control, eu]
         price: paid
         status: active
@@ -466,12 +530,14 @@ categories:
       - name: "Acorn"
         description: "Full-featured photo editor designed for humans"
         url: "https://flyingmeat.com/acorn"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=flyingmeat.com"
         tags: [image, graphics]
         price: paid
         status: active
       - name: "ImageOptim"
         description: "Compress images without losing quality"
         url: "https://imageoptim.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=imageoptim.com"
         tags: [image, graphics, open-source]
         license: "Open Source"
         price: free
@@ -479,24 +545,28 @@ categories:
       - name: "Pixave"
         description: "Ultimate image organizer and viewer"
         url: "https://www.pixaveapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pixaveapp.com"
         tags: [image, graphics]
         price: paid
         status: active
       - name: "Pixelmator Pro"
         description: "Powerful native image editor"
         url: "https://www.pixelmator.com/pro"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pixelmator.com"
         tags: [image, graphics, eu]
         price: paid
         status: active
       - name: "Retrobatch"
         description: "Batch image processing for Mac"
         url: "https://flyingmeat.com/retrobatch"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=flyingmeat.com"
         tags: [image, graphics]
         price: paid
         status: active
       - name: "xScope"
         description: "Measure, inspect and test on-screen graphics"
         url: "https://xscopeapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=xscopeapp.com"
         tags: [image, graphics]
         price: paid
         status: active
@@ -507,18 +577,21 @@ categories:
       - name: "Glance"
         description: "Native Markdown viewer and Quick Look extension"
         url: "https://glance.md"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=glance.md"
         tags: [markdown, editors]
         price: free
         status: active
       - name: "iA Writer"
         description: "Focused writing app with beautiful typography"
         url: "https://ia.net/writer"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=ia.net"
         tags: [markdown, editors]
         price: paid
         status: active
       - name: "MacDown"
         description: "Open source Markdown editor for macOS"
         url: "https://macdown.uranusjr.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macdown.uranusjr.com"
         tags: [markdown, editors, open-source]
         license: "Open Source"
         price: free
@@ -526,12 +599,14 @@ categories:
       - name: "Marked 2"
         description: "Markdown preview and conversion"
         url: "https://marked2app.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=marked2app.com"
         tags: [markdown, editors]
         price: paid
         status: active
       - name: "MD Preview"
         description: "Lightweight Markdown preview app using Rust and native WebView"
         url: "https://vorojar.github.io/md-preview"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=vorojar.github.io"
         tags: [markdown, editors, open-source]
         license: "Open Source"
         price: free
@@ -539,18 +614,21 @@ categories:
       - name: "MWeb"
         description: "Pro Markdown writing and note-taking"
         url: "https://www.mweb.im"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mweb.im"
         tags: [markdown, editors]
         price: paid
         status: active
       - name: "Typora"
         description: "Minimal Markdown editor and reader"
         url: "https://typora.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=typora.io"
         tags: [markdown, editors]
         price: paid
         status: active
       - name: "Writer"
         description: "Local-first markdown editor with a Rust backend and native WKWebView"
         url: "https://writer.computer"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=writer.computer"
         tags: [markdown, editors, open-source]
         license: "Open Source"
         price: free
@@ -562,18 +640,21 @@ categories:
       - name: "Bartender"
         description: "Organize your menu bar icons"
         url: "https://www.macbartender.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macbartender.com"
         tags: [menu, bar, apps]
         price: paid
         status: active
       - name: "Commitments"
         description: "Your tasks in menu bar"
         url: "https://commitments.pages.dev"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=commitments.pages.dev"
         tags: [menu, bar, apps]
         price: paid
         status: active
       - name: "DatWeatherDoe"
         description: "Simple menu bar weather app"
         url: "https://github.com/inderdhir/DatWeatherDoe"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -581,6 +662,7 @@ categories:
       - name: "Dozer"
         description: "Hide menu bar icons to give your Mac a cleaner look"
         url: "https://github.com/Mortennn/Dozer"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -588,12 +670,14 @@ categories:
       - name: "Hand Mirror"
         description: "One-click camera check from menu bar"
         url: "https://handmirror.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=handmirror.app"
         tags: [menu, bar, apps]
         price: free
         status: active
       - name: "Hidden Bar"
         description: "Hide menu bar items"
         url: "https://github.com/dwarvesf/hidden"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -601,12 +685,14 @@ categories:
       - name: "HomeBar for Homey Pro"
         description: "Manage your Homey Pro smart home"
         url: "https://homebar.pro"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=homebar.pro"
         tags: [menu, bar, apps]
         price: freemium
         status: active
       - name: "Itsycal"
         description: "Tiny menu bar calendar"
         url: "https://www.mowglii.com/itsycal"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mowglii.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -614,6 +700,7 @@ categories:
       - name: "Itsyhome"
         description: "Smart home meets menu bar"
         url: "https://github.com/nickustinov/itsyhome-macos"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: freemium
@@ -621,18 +708,21 @@ categories:
       - name: "MenubarX"
         description: "Browser in your menu bar"
         url: "https://menubarx.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=menubarx.app"
         tags: [menu, bar, apps]
         price: freemium
         status: active
       - name: "One Thing"
         description: "Put a single task in your menu bar"
         url: "https://sindresorhus.com/one-thing"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sindresorhus.com"
         tags: [menu, bar, apps]
         price: paid
         status: active
       - name: "OpenQuack"
         description: "Transcribes a 5-minute clip in 2.8 s — local WhisperKit dictation, noise-robust. ~8 MB native Swift"
         url: "https://github.com/larryxiao/openquack"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -640,12 +730,14 @@ categories:
       - name: "SaneBar"
         description: "Privacy-first menu bar manager. Hide and organize icons"
         url: "https://sanebar.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sanebar.com"
         tags: [menu, bar, apps]
         price: freemium
         status: active
       - name: "Stargazer Bar"
         description: "Track one public GitHub repo's stars and release downloads from your menu bar"
         url: "https://jazzyalex.github.io/stargazer-bar"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=jazzyalex.github.io"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -653,6 +745,7 @@ categories:
       - name: "Thaw"
         description: "Powerful menu bar management tool. Fork of Ice, lower resource usage"
         url: "https://github.com/stonerl/Thaw"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -660,6 +753,7 @@ categories:
       - name: "TickerPad"
         description: "Real-time crypto prices in your macOS menu bar"
         url: "https://tickerpad.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=tickerpad.app"
         tags: [menu, bar, apps]
         price: freemium
         status: active
@@ -670,6 +764,7 @@ categories:
       - name: "BitChat"
         description: "Decentralized, peer-to-peer messaging application over Bluetooth mesh and Nostr"
         url: "https://github.com/permissionlesstech/bitchat"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [messaging, open-source]
         license: "Open Source"
         price: free
@@ -677,6 +772,7 @@ categories:
       - name: "Telegram"
         description: "Native messaging app focused on speed and security"
         url: "https://macos.telegram.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macos.telegram.org"
         tags: [messaging, open-source]
         license: "Open Source"
         price: free
@@ -688,18 +784,21 @@ categories:
       - name: "Little Snitch"
         description: "Network monitor and firewall"
         url: "https://www.obdev.at/products/littlesnitch"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=obdev.at"
         tags: [network, tools, eu]
         price: paid
         status: active
       - name: "Micro Snitch"
         description: "Monitor camera and microphone access"
         url: "https://www.obdev.at/products/microsnitch"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=obdev.at"
         tags: [network, tools, eu]
         price: paid
         status: active
       - name: "NetNewsWire"
         description: "RSS reader for macOS"
         url: "https://netnewswire.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=netnewswire.com"
         tags: [network, tools, open-source]
         license: "Open Source"
         price: free
@@ -707,12 +806,14 @@ categories:
       - name: "Proxyman"
         description: "Native HTTP debugging proxy"
         url: "https://proxyman.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=proxyman.io"
         tags: [developer, tools]
         price: freemium
         status: active
       - name: "Rockxy"
         description: "macOS HTTP/HTTPS debugging proxy to capture, inspect, modify, and replay traffic"
         url: "https://rockxy.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rockxy.io"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: freemium
@@ -720,12 +821,14 @@ categories:
       - name: "Surge"
         description: "Advanced network toolbox for Mac"
         url: "https://nssurge.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=nssurge.com"
         tags: [network, tools]
         price: paid
         status: active
       - name: "WiFi Explorer"
         description: "Scan, monitor and troubleshoot wireless networks"
         url: "https://www.intuitibits.com/products/wifi-explorer"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=intuitibits.com"
         tags: [network, tools]
         price: paid
         status: active
@@ -736,24 +839,28 @@ categories:
       - name: "Bear"
         description: "Beautiful, flexible writing app"
         url: "https://bear.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bear.app"
         tags: [note, taking, writing, eu]
         price: freemium
         status: active
       - name: "Craft"
         description: "Native document editor with sharing"
         url: "https://www.craft.do"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=craft.do"
         tags: [note, taking, writing]
         price: freemium
         status: active
       - name: "DEVONthink"
         description: "Document and information management"
         url: "https://www.devontechnologies.com/apps/devonthink"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=devontechnologies.com"
         tags: [note, taking, writing]
         price: paid
         status: active
       - name: "FSNotes"
         description: "Modern notes manager for macOS"
         url: "https://fsnot.es"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=fsnot.es"
         tags: [note, taking, writing, open-source]
         license: "Open Source"
         price: free
@@ -761,12 +868,14 @@ categories:
       - name: "iA Writer"
         description: "Focused writing app with beautiful typography"
         url: "https://ia.net/writer"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=ia.net"
         tags: [note, taking, writing]
         price: paid
         status: active
       - name: "Notational Velocity"
         description: "Modeless note-taking application"
         url: "http://notational.net"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=notational.net"
         tags: [note, taking, writing, open-source]
         license: "Open Source"
         price: free
@@ -774,12 +883,14 @@ categories:
       - name: "Notebooks"
         description: "Write, organize, and manage information"
         url: "https://www.notebooksapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=notebooksapp.com"
         tags: [note, taking, writing]
         price: paid
         status: active
       - name: "nvALT"
         description: "Fork of Notational Velocity with additional features"
         url: "https://brettterpstra.com/projects/nvalt"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=brettterpstra.com"
         tags: [note, taking, writing, open-source]
         license: "Open Source"
         price: free
@@ -787,6 +898,7 @@ categories:
       - name: "Simplenote"
         description: "Simple note-taking application with cross-platform syncing"
         url: "https://github.com/Automattic/simplenote-macos"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [note, taking, writing, open-source]
         license: "Open Source"
         price: free
@@ -794,18 +906,21 @@ categories:
       - name: "The Archive"
         description: "Note-taking app for writers and researchers"
         url: "https://zettelkasten.de/the-archive"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=zettelkasten.de"
         tags: [note, taking, writing]
         price: paid
         status: active
       - name: "Tot"
         description: "Elegant text collection on menu bar"
         url: "https://tot.rocks"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=tot.rocks"
         tags: [note, taking, writing]
         price: freemium
         status: active
       - name: "Ulysses"
         description: "Professional writing environment for Mac"
         url: "https://ulysses.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=ulysses.app"
         tags: [note, taking, writing, eu]
         price: paid
         status: active
@@ -816,6 +931,7 @@ categories:
       - name: "MacPass"
         description: "A native macOS KeePass client"
         url: "https://macpassapp.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macpassapp.org"
         tags: [password, managers, open-source]
         license: "Open Source"
         price: free
@@ -823,6 +939,7 @@ categories:
       - name: "Strongbox"
         description: "Native KeePass client for macOS"
         url: "https://strongboxsafe.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=strongboxsafe.com"
         tags: [password, managers]
         price: freemium
         status: active
@@ -833,24 +950,28 @@ categories:
       - name: "PDF Expert"
         description: "Fast, robust PDF editor"
         url: "https://pdfexpert.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pdfexpert.com"
         tags: [pdf, tools]
         price: paid
         status: active
       - name: "PDFgear"
         description: "Free PDF editor for macOS"
         url: "https://www.pdfgear.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pdfgear.com"
         tags: [pdf, tools]
         price: free
         status: active
       - name: "PDFpenPro"
         description: "Professional PDF editing for Mac"
         url: "https://pdfpen.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pdfpen.com"
         tags: [pdf, tools]
         price: paid
         status: active
       - name: "Skim"
         description: "PDF reader and note-taker"
         url: "https://skim-app.sourceforge.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=skim-app.sourceforge.io"
         tags: [pdf, tools, open-source]
         license: "Open Source"
         price: free
@@ -862,54 +983,63 @@ categories:
       - name: "Alfred"
         description: "Productivity app for macOS with powerful workflows"
         url: "https://www.alfredapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=alfredapp.com"
         tags: [productivity]
         price: freemium
         status: active
       - name: "BetterTouchTool"
         description: "Customize input devices on your Mac"
         url: "https://folivora.ai"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=folivora.ai"
         tags: [productivity, eu]
         price: paid
         status: active
       - name: "Due"
         description: "Reminders with persistent alerts"
         url: "https://www.dueapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=dueapp.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Fantastical"
         description: "Calendar app with natural language input"
         url: "https://flexibits.com/fantastical"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=flexibits.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Focus"
         description: "Block distracting websites and applications"
         url: "https://heyfocus.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=heyfocus.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Keyboard Maestro"
         description: "Automate applications and websites"
         url: "https://www.keyboardmaestro.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=keyboardmaestro.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "OmniFocus"
         description: "Professional-grade task management"
         url: "https://www.omnigroup.com/omnifocus"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=omnigroup.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Raycast"
         description: "Blazingly fast extendable launcher"
         url: "https://www.raycast.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=raycast.com"
         tags: [productivity]
         price: freemium
         status: active
       - name: "Revu"
         description: "Local-first spaced repetition app with FSRS scheduling, Anki import, and study guides"
         url: "https://revu.cards"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=revu.cards"
         tags: [productivity, open-source]
         license: "Open Source"
         price: free
@@ -917,6 +1047,7 @@ categories:
       - name: "SelfControl"
         description: "Block distracting websites"
         url: "https://selfcontrolapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=selfcontrolapp.com"
         tags: [productivity, open-source]
         license: "Open Source"
         price: free
@@ -924,30 +1055,35 @@ categories:
       - name: "Snippety"
         description: "Advanced snippets manager for macOS and iOS"
         url: "https://snippety.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=snippety.app"
         tags: [productivity]
         price: paid
         status: active
       - name: "Speakmac"
         description: "Offline hotkey dictation for macOS that types into any app using on-device transcription"
         url: "https://www.speakmac.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=speakmac.app"
         tags: [productivity]
         price: paid
         status: active
       - name: "TaskPaper"
         description: "Plain text to-do lists"
         url: "https://www.taskpaper.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=taskpaper.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Things"
         description: "Award-winning task manager"
         url: "https://culturedcode.com/things"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=culturedcode.com"
         tags: [productivity]
         price: paid
         status: active
       - name: "Tot"
         description: "Elegant text collection on menu bar"
         url: "https://tot.rocks"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=tot.rocks"
         tags: [productivity]
         price: freemium
         status: active
@@ -958,6 +1094,7 @@ categories:
       - name: "BetterCapture"
         description: "A lightweight, and intuitive screen recorder with a native look and feel"
         url: "https://bettercapture.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bettercapture.app"
         tags: [screenshot, recording, open-source]
         license: "Open Source"
         price: free
@@ -965,18 +1102,21 @@ categories:
       - name: "CleanShot X"
         description: "Capture your Mac's screen like a pro"
         url: "https://cleanshot.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=cleanshot.com"
         tags: [screenshot, recording]
         price: paid
         status: active
       - name: "Gifox"
         description: "Delightful GIF recording and sharing"
         url: "https://gifox.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=gifox.app"
         tags: [screenshot, recording]
         price: paid
         status: active
       - name: "Kap"
         description: "Open-source screen recorder"
         url: "https://getkap.co"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=getkap.co"
         tags: [screenshot, recording, open-source]
         license: "Open Source"
         price: free
@@ -984,24 +1124,28 @@ categories:
       - name: "ScreenFloat"
         description: "Screenshot utility with floating thumbnails"
         url: "https://eternalstorms.at/screenfloat"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=eternalstorms.at"
         tags: [screenshot, recording, eu]
         price: paid
         status: active
       - name: "ScreenKite"
         description: "Screen recording and video editing with auto zoom effect. 4x faster than Screen Studio"
         url: "https://www.screenkite.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=screenkite.com"
         tags: [screenshot, recording]
         price: free
         status: active
       - name: "Shottr"
         description: "Screenshot tool with advanced features"
         url: "https://shottr.cc"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=shottr.cc"
         tags: [screenshot, recording]
         price: free
         status: active
       - name: "Xnapper"
         description: "Take beautiful screenshots instantly"
         url: "https://xnapper.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=xnapper.com"
         tags: [screenshot, recording]
         price: freemium
         status: active
@@ -1012,6 +1156,7 @@ categories:
       - name: "Cryptomator"
         description: "Multi-platform client-side encryption"
         url: "https://cryptomator.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=cryptomator.org"
         tags: [security, privacy, open-source, eu]
         license: "Open Source"
         price: free
@@ -1019,6 +1164,7 @@ categories:
       - name: "KnockKnock"
         description: "See what's persistently installed on your Mac"
         url: "https://objective-see.org/products/knockknock.html"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=objective-see.org"
         tags: [security, privacy, open-source]
         license: "Open Source"
         price: free
@@ -1026,12 +1172,14 @@ categories:
       - name: "Little Snitch"
         description: "Network monitor and firewall"
         url: "https://www.obdev.at/products/littlesnitch"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=obdev.at"
         tags: [security, privacy, eu]
         price: paid
         status: active
       - name: "Lulu"
         description: "Open-source firewall for macOS"
         url: "https://objective-see.org/products/lulu.html"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=objective-see.org"
         tags: [security, privacy, open-source]
         license: "Open Source"
         price: free
@@ -1039,12 +1187,14 @@ categories:
       - name: "Micro Snitch"
         description: "Monitor camera and microphone access"
         url: "https://www.obdev.at/products/microsnitch"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=obdev.at"
         tags: [security, privacy, eu]
         price: paid
         status: active
       - name: "OverSight"
         description: "Monitor mic and webcam access"
         url: "https://objective-see.org/products/oversight.html"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=objective-see.org"
         tags: [security, privacy, open-source]
         license: "Open Source"
         price: free
@@ -1056,6 +1206,7 @@ categories:
       - name: "AlDente"
         description: "Charge limiter to extend MacBook battery life"
         url: "https://github.com/AppHouseKitchen/AlDente-Charge-Limiter"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: freemium
@@ -1063,12 +1214,14 @@ categories:
       - name: "AppCleaner"
         description: "Thoroughly uninstall unwanted apps"
         url: "https://freemacsoft.net/appcleaner"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=freemacsoft.net"
         tags: [system, utilities]
         price: free
         status: active
       - name: "Background Music"
         description: "Control audio per-application"
         url: "https://github.com/kyleneideck/BackgroundMusic"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1076,6 +1229,7 @@ categories:
       - name: "ClearDisk"
         description: "macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space"
         url: "https://github.com/bysiber/cleardisk"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1083,48 +1237,56 @@ categories:
       - name: "coconutBattery"
         description: "Check battery health and status"
         url: "https://www.coconut-flavour.com/coconutbattery"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=coconut-flavour.com"
         tags: [system, utilities]
         price: free
         status: active
       - name: "DaisyDisk"
         description: "Analyze disk usage and free up space"
         url: "https://daisydiskapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=daisydiskapp.com"
         tags: [system, utilities]
         price: paid
         status: active
       - name: "DisplayBuddy"
         description: "Control the real brightness of monitors directly from Mac"
         url: "https://displaybuddy.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=displaybuddy.app"
         tags: [system, utilities]
         price: paid
         status: active
       - name: "Endurance"
         description: "Extend your MacBook's battery life"
         url: "https://enduranceapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=enduranceapp.com"
         tags: [system, utilities]
         price: paid
         status: active
       - name: "EtreCheck"
         description: "System configuration and diagnostic reporting"
         url: "https://etrecheck.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=etrecheck.com"
         tags: [system, utilities]
         price: free
         status: active
       - name: "Hand Mirror"
         description: "One-click camera check from menu bar"
         url: "https://handmirror.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=handmirror.app"
         tags: [system, utilities]
         price: free
         status: active
       - name: "iStat Menus"
         description: "Advanced Mac system monitor"
         url: "https://bjango.com/mac/istatmenus"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=bjango.com"
         tags: [system, utilities]
         price: paid
         status: active
       - name: "LinearMouse"
         description: "The mouse and trackpad utility for Mac"
         url: "https://linearmouse.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=linearmouse.app"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1132,12 +1294,14 @@ categories:
       - name: "Lungo"
         description: "Prevent your Mac from going to sleep"
         url: "https://sindresorhus.com/lungo"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sindresorhus.com"
         tags: [system, utilities]
         price: paid
         status: active
       - name: "MacPacker"
         description: "Archive manager for macOS"
         url: "https://github.com/sarensw/MacPacker"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1145,6 +1309,7 @@ categories:
       - name: "MonitorControl"
         description: "Control external monitor brightness & volume like native displays"
         url: "https://github.com/MonitorControl/MonitorControl"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1152,12 +1317,14 @@ categories:
       - name: "Onyx"
         description: "Multifunction utility for macOS"
         url: "https://www.titanium-software.fr/en/onyx.html"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=titanium-software.fr"
         tags: [system, utilities, eu]
         price: free
         status: active
       - name: "Pearcleaner"
         description: "Powerful Mac app cleaner"
         url: "https://pearcleaner.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=pearcleaner.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1165,6 +1332,7 @@ categories:
       - name: "Rectangle"
         description: "Window management with keyboard shortcuts"
         url: "https://rectangleapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rectangleapp.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1172,6 +1340,7 @@ categories:
       - name: "Stats"
         description: "macOS system monitor"
         url: "https://github.com/exelban/stats"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1179,6 +1348,7 @@ categories:
       - name: "The Unarchiver"
         description: "Extract many archive formats"
         url: "https://theunarchiver.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=theunarchiver.com"
         tags: [system, utilities]
         price: free
         status: active
@@ -1189,6 +1359,7 @@ categories:
       - name: "Alacritty"
         description: "GPU-accelerated terminal emulator"
         url: "https://alacritty.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=alacritty.org"
         tags: [terminal, shell, open-source]
         license: "Open Source"
         price: free
@@ -1196,6 +1367,7 @@ categories:
       - name: "Ghostty"
         description: "Fast, feature-rich GPU-based terminal"
         url: "https://github.com/ghostty-org/ghostty"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [terminal, shell, open-source]
         license: "Open Source"
         price: free
@@ -1203,6 +1375,7 @@ categories:
       - name: "iTerm2"
         description: "Terminal emulator for macOS"
         url: "https://iterm2.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=iterm2.com"
         tags: [terminal, shell, open-source]
         license: "Open Source"
         price: free
@@ -1210,6 +1383,7 @@ categories:
       - name: "Kitty"
         description: "Fast, feature-rich GPU-based terminal"
         url: "https://sw.kovidgoyal.net/kitty"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sw.kovidgoyal.net"
         tags: [terminal, shell, open-source]
         license: "Open Source"
         price: free
@@ -1217,6 +1391,7 @@ categories:
       - name: "Warp"
         description: "Rust-based terminal with modern features"
         url: "https://www.warp.dev"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=warp.dev"
         tags: [terminal, shell]
         price: free
         status: active
@@ -1227,12 +1402,14 @@ categories:
       - name: "BBEdit"
         description: "Professional text and code editor"
         url: "https://www.barebones.com/products/bbedit"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=barebones.com"
         tags: [text, editors]
         price: paid
         status: active
       - name: "CodeEdit"
         description: "Native code editor for macOS"
         url: "https://github.com/CodeEditApp/CodeEdit"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1240,6 +1417,7 @@ categories:
       - name: "CotEditor"
         description: "Lightweight plain-text editor"
         url: "https://coteditor.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=coteditor.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1247,6 +1425,7 @@ categories:
       - name: "Itsypad"
         description: "A tiny, fast scratchpad and clipboard manager"
         url: "https://github.com/nickustinov/itsypad-macos"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1254,6 +1433,7 @@ categories:
       - name: "MacVim"
         description: "Vim text editor for macOS"
         url: "https://macvim.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macvim.org"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1261,6 +1441,7 @@ categories:
       - name: "Neon Vision Editor"
         description: "A lightweight and modern macOS code editor"
         url: "https://github.com/h3pdesign/Neon-Vision-Editor"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1268,12 +1449,14 @@ categories:
       - name: "Nova"
         description: "Beautiful native code editor from Panic"
         url: "https://nova.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=nova.app"
         tags: [text, editors]
         price: paid
         status: active
       - name: "SubEthaEdit"
         description: "Code, write, and edit with collaborative features"
         url: "https://subethaedit.net"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=subethaedit.net"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1281,12 +1464,14 @@ categories:
       - name: "Sublime Text"
         description: "Sophisticated text editor for code, markup and prose"
         url: "https://www.sublimetext.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sublimetext.com"
         tags: [text, editors]
         price: paid
         status: active
       - name: "TextMate"
         description: "Powerful text editor for macOS"
         url: "https://macromates.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=macromates.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1294,6 +1479,7 @@ categories:
       - name: "VimR"
         description: "Neovim GUI for macOS"
         url: "https://github.com/qvacua/vimr"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1301,6 +1487,7 @@ categories:
       - name: "Zed"
         description: "Rust-based code editor built"
         url: "https://github.com/zed-industries/zed"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1312,6 +1499,7 @@ categories:
       - name: "HandBrake"
         description: "Open source video transcoder"
         url: "https://handbrake.fr"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=handbrake.fr"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1319,6 +1507,7 @@ categories:
       - name: "IINA"
         description: "Modern media player for macOS"
         url: "https://iina.io"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=iina.io"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1326,6 +1515,7 @@ categories:
       - name: "Itsytv"
         description: "The missing Apple TV remote app"
         url: "https://github.com/nickustinov/itsytv-macos"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1333,6 +1523,7 @@ categories:
       - name: "Kaset"
         description: "Native YouTube Music client for macOS"
         url: "https://github.com/sozercan/kaset"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1340,12 +1531,14 @@ categories:
       - name: "Movist Pro"
         description: "Powerful movie player for macOS"
         url: "https://movistprime.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=movistprime.com"
         tags: [video, media]
         price: paid
         status: active
       - name: "Palmier Pro"
         description: "Open-source native video editor designed for AI-assisted workflows"
         url: "https://github.com/palmier-io/palmier-pro"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [video, media, open-source, ai]
         license: "Open Source"
         price: freemium
@@ -1353,12 +1546,14 @@ categories:
       - name: "Permute"
         description: "Easy-to-use media converter"
         url: "https://software.charliemonroe.net/permute"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=software.charliemonroe.net"
         tags: [video, media]
         price: paid
         status: active
       - name: "Subler"
         description: "Mux and tag MP4 files"
         url: "https://subler.org"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=subler.org"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1366,6 +1561,7 @@ categories:
       - name: "VLC"
         description: "Cross-platform multimedia player"
         url: "https://www.videolan.org/vlc"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=videolan.org"
         tags: [video, media, open-source, eu]
         license: "Open Source"
         price: free
@@ -1377,6 +1573,7 @@ categories:
       - name: "Passepartout"
         description: "Your go-to app for VPN and privacy"
         url: "https://github.com/partout-io/passepartout"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [vpn, client, open-source]
         license: "Open Source"
         price: free
@@ -1384,6 +1581,7 @@ categories:
       - name: "Tunnelblick"
         description: "OpenVPN Client"
         url: "https://github.com/Tunnelblick/Tunnelblick"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [vpn, client, open-source]
         license: "Open Source"
         price: free
@@ -1391,6 +1589,7 @@ categories:
       - name: "Viscosity"
         description: "OpenVPN Client"
         url: "https://www.sparklabs.com/viscosity"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=sparklabs.com"
         tags: [vpn, client]
         price: paid
         status: active
@@ -1401,6 +1600,7 @@ categories:
       - name: "Wallspace"
         description: "Live Wallpapers for Macos, with custom lock screen"
         url: "https://wallspace.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=wallspace.app"
         tags: [wallpaper, apps]
         price: freemium
         status: active
@@ -1411,6 +1611,7 @@ categories:
       - name: "Amethyst"
         description: "Automatic tiling window manager"
         url: "https://ianyh.com/amethyst"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=ianyh.com"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free
@@ -1418,18 +1619,21 @@ categories:
       - name: "BetterSnapTool"
         description: "Window management via snap areas"
         url: "https://folivora.ai/bettersnaptool"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=folivora.ai"
         tags: [window, management, eu]
         price: paid
         status: active
       - name: "Divvy"
         description: "Window management at its finest"
         url: "https://mizage.com/divvy"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=mizage.com"
         tags: [window, management]
         price: paid
         status: active
       - name: "Loop"
         description: "Window management made elegant"
         url: "https://github.com/MrKai77/Loop"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free
@@ -1437,18 +1641,21 @@ categories:
       - name: "Magnet"
         description: "Window manager that snaps windows into position"
         url: "https://magnet.crowdcafe.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=magnet.crowdcafe.com"
         tags: [window, management]
         price: paid
         status: active
       - name: "Moom"
         description: "Move and zoom windows with ease"
         url: "https://manytricks.com/moom"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=manytricks.com"
         tags: [window, management]
         price: paid
         status: active
       - name: "Nudge"
         description: "Free window manager with keyboard shortcuts and drag-to-edge snapping"
         url: "https://nudge.run"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=nudge.run"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free
@@ -1456,6 +1663,7 @@ categories:
       - name: "Rectangle"
         description: "Window snapping via keyboard shortcuts"
         url: "https://rectangleapp.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rectangleapp.com"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free
@@ -1463,24 +1671,28 @@ categories:
       - name: "Rectangle Pro"
         description: "Professional window management"
         url: "https://rectangleapp.com/pro"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=rectangleapp.com"
         tags: [window, management]
         price: paid
         status: active
       - name: "Swish"
         description: "Control windows with trackpad gestures"
         url: "https://highlyopinionated.co/swish"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=highlyopinionated.co"
         tags: [window, management]
         price: paid
         status: active
       - name: "Wins"
         description: "Bring system-level window management features to macOS"
         url: "https://wins.cool"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=wins.cool"
         tags: [window, management]
         price: paid
         status: active
       - name: "Yabai"
         description: "Tiling window manager for macOS"
         url: "https://github.com/koekeishiya/yabai"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free

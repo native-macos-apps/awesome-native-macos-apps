@@ -29,6 +29,23 @@ def parse_value(value: str):
     return unquote(value)
 
 
+def get_icon_url(app: dict) -> str:
+    if "icon" in app and app["icon"]:
+        return app["icon"]
+    url = app.get("url", "")
+    from urllib.parse import urlparse
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc
+        if domain.startswith("www."):
+            domain = domain[4:]
+        if domain:
+            return f"https://www.google.com/s2/favicons?sz=128&domain={domain}"
+    except Exception:
+        pass
+    return "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a7cff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3C/svg%3E"
+
+
 def load_apps_yaml() -> list[dict]:
     categories: list[dict] = []
     current_category: dict | None = None
@@ -105,12 +122,18 @@ def render(categories: list[dict]) -> str:
             app_tags = " ".join(str(tag) for tag in app.get("tags", []))
             app_price = str(app.get("price", "free"))
             is_open_source = str(license_label).lower() == "open source"
+            icon_url = get_icon_url(app)
             cards.append(
                 f"""
                 <article class="app-card" data-tags="{html.escape(app_tags)}" data-category-id="{html.escape(category['id'])}" data-price="{html.escape(app_price)}" data-open-source="{str(is_open_source).lower()}">
-                  <div class="app-title">
-                    <a href="{html.escape(app['url'])}" rel="noopener noreferrer">{html.escape(app['name'])}</a>
-                    <span class="price">{html.escape(app.get('price', 'free'))}</span>
+                  <div class="app-header">
+                    <img class="app-icon" src="{html.escape(icon_url)}" alt="{html.escape(app['name'])} icon" width="36" height="36" loading="lazy" onerror="this.onerror=null; this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a7cff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3C/svg%3E&quot;;" />
+                    <div class="app-title-wrapper">
+                      <div class="app-title">
+                        <a href="{html.escape(app['url'])}" rel="noopener noreferrer">{html.escape(app['name'])}</a>
+                        <span class="price">{html.escape(app.get('price', 'free'))}</span>
+                      </div>
+                    </div>
                   </div>
                   <p>{html.escape(app['description'])}.</p>
                   <div class="meta-row">
@@ -228,15 +251,76 @@ def render(categories: list[dict]) -> str:
       border-radius: 8px;
       min-height: 190px;
       padding: 16px;
+      display: flex;
+      flex-direction: column;
     }}
-    .app-title {{ align-items: flex-start; display: flex; gap: 10px; justify-content: space-between; }}
-    .app-title a {{ color: var(--text); font-size: 1.04rem; font-weight: 700; text-decoration: none; }}
+    .app-header {{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }}
+    .app-icon {{
+      border-radius: 22%;
+      border: 1px solid var(--line);
+      background: var(--card);
+      height: 36px;
+      width: 36px;
+      object-fit: contain;
+      padding: 4px;
+      flex-shrink: 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      transition: transform 0.2s ease;
+    }}
+    .app-card:hover .app-icon {{
+      transform: scale(1.05);
+    }}
+    .app-title-wrapper {{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }}
+    .app-title {{
+      align-items: center;
+      display: flex;
+      gap: 8px;
+      justify-content: space-between;
+      width: 100%;
+    }}
+    .app-title a {{
+      color: var(--text);
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }}
     .app-title a:hover {{ color: var(--accent); }}
-    .price {{ color: var(--accent); text-transform: capitalize; }}
-    .app-card p {{ color: var(--muted); margin: 10px 0 14px; }}
+    .price {{
+      color: var(--accent);
+      text-transform: capitalize;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: rgba(10, 124, 255, 0.08);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }}
+    @media (prefers-color-scheme: dark) {{
+      .price {{
+        background: rgba(90, 167, 255, 0.12);
+      }}
+    }}
+    .app-card p {{
+      color: var(--muted);
+      margin: 0 0 16px 0;
+      font-size: 0.92rem;
+      flex-grow: 1;
+    }}
     .meta-row, .tags {{ display: flex; flex-wrap: wrap; gap: 6px; }}
     .tags {{ margin-top: 12px; }}
-    .tag {{ background: var(--tag); }}
+    .tag {{ background: var(--tag); border: none; font-size: 0.78rem; font-weight: 500; }}
     [hidden] {{ display: none !important; }}
     footer {{ color: var(--muted); padding: 32px 0 56px; text-align: center; }}
   </style>
