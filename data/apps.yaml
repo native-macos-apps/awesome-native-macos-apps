@@ -1241,6 +1241,14 @@ categories:
         tags: [system, utilities]
         price: free
         status: active
+      - name: "Cork"
+        description: "An intuitive and complete Homebrew GUI written in SwiftUI that supports all Homebrew features"
+        url: "https://github.com/buresdv/Cork"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=github.com"
+        tags: [system, utilities, open-source]
+        license: "Open Source"
+        price: free
+        status: active
       - name: "DaisyDisk"
         description: "Analyze disk usage and free up space"
         url: "https://daisydiskapp.com"
