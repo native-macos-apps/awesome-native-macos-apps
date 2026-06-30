@@ -13,7 +13,7 @@ categories:
       - name: "Stats"
         description: "macOS system monitor for CPU, GPU, memory, disk, and more"
         url: "https://github.com/exelban/stats"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/exelban?s=128&v=4"
         tags: [analytics, monitoring, open-source]
         license: "Open Source"
         price: free
@@ -32,7 +32,7 @@ categories:
       - name: "BackgroundMusic"
         description: "macOS audio utility to control volume per-app"
         url: "https://github.com/kyleneideck/BackgroundMusic"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/kyleneideck?s=128&v=4"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -71,7 +71,7 @@ categories:
       - name: "Petrichor"
         description: "Offline music player with support for over 20 file formats and a lot of other features"
         url: "https://github.com/kushalpandya/Petrichor"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/kushalpandya?s=128&v=4"
         tags: [audio, music, open-source]
         license: "Open Source"
         price: free
@@ -156,7 +156,7 @@ categories:
       - name: "Meeting Bar"
         description: "Menu bar app for your calendar meetings"
         url: "https://github.com/leits/MeetingBar"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/leits?s=128&v=4"
         tags: [calendar, time, open-source]
         license: "Open Source"
         price: free
@@ -168,7 +168,7 @@ categories:
       - name: "Clipy"
         description: "Clipboard extension app for macOS"
         url: "https://github.com/Clipy/Clipy"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Clipy?s=128&v=4"
         tags: [clipboard, managers, open-source]
         license: "Open Source"
         price: free
@@ -176,7 +176,7 @@ categories:
       - name: "Maccy"
         description: "Lightweight clipboard manager with search"
         url: "https://github.com/p0deje/Maccy"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/p0deje?s=128&v=4"
         tags: [clipboard, managers, open-source]
         license: "Open Source"
         price: free
@@ -242,7 +242,7 @@ categories:
       - name: "Sequel-Ace"
         description: "MySQL/MariaDB database management for macOS"
         url: "https://github.com/Sequel-Ace/Sequel-Ace"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Sequel-Ace?s=128&v=4"
         tags: [database, tools, open-source]
         license: "Open Source"
         price: free
@@ -269,7 +269,7 @@ categories:
       - name: "Blender"
         description: "Free and open-source 3D creation suite"
         url: "https://github.com/blender/blender"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/blender?s=128&v=4"
         tags: [design, tools, open-source]
         license: "Open Source"
         price: free
@@ -302,7 +302,7 @@ categories:
       - name: "DevCleaner"
         description: "Clean Xcode cache and derived data"
         url: "https://github.com/vashpan/xcode-dev-cleaner"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/vashpan?s=128&v=4"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: free
@@ -345,7 +345,7 @@ categories:
       - name: "SSH Keys Manager"
         description: "Native macOS app for managing SSH keys and SSH config entries"
         url: "https://github.com/Stmol/ssh-keys-manager-macos-app"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Stmol?s=128&v=4"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: free
@@ -470,7 +470,7 @@ categories:
       - name: "Quick Look plugins"
         description: "Useful Quick Look plugins for developers"
         url: "https://github.com/sindresorhus/quick-look-plugins"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/sindresorhus?s=128&v=4"
         tags: [file, management, open-source]
         license: "Open Source"
         price: free
@@ -489,7 +489,7 @@ categories:
       - name: "Changes"
         description: "Open-source GUI Git client for macOS"
         url: "https://github.com/maoyama/Changes"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/maoyama?s=128&v=4"
         tags: [git, version, control, open-source]
         license: "Open Source"
         price: free
@@ -661,7 +661,7 @@ categories:
       - name: "DatWeatherDoe"
         description: "Simple menu bar weather app"
         url: "https://github.com/inderdhir/DatWeatherDoe"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/inderdhir?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -669,7 +669,7 @@ categories:
       - name: "Dozer"
         description: "Hide menu bar icons to give your Mac a cleaner look"
         url: "https://github.com/Mortennn/Dozer"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Mortennn?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -684,7 +684,7 @@ categories:
       - name: "Hidden Bar"
         description: "Hide menu bar items"
         url: "https://github.com/dwarvesf/hidden"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/dwarvesf?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -707,7 +707,7 @@ categories:
       - name: "Itsyhome"
         description: "Smart home meets menu bar"
         url: "https://github.com/nickustinov/itsyhome-macos"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/nickustinov?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: freemium
@@ -729,7 +729,7 @@ categories:
       - name: "OpenQuack"
         description: "Transcribes a 5-minute clip in 2.8 s — local WhisperKit dictation, noise-robust. ~8 MB native Swift"
         url: "https://github.com/larryxiao/openquack"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/larryxiao?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -752,7 +752,7 @@ categories:
       - name: "Thaw"
         description: "Powerful menu bar management tool. Fork of Ice, lower resource usage"
         url: "https://github.com/stonerl/Thaw"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/stonerl?s=128&v=4"
         tags: [menu, bar, apps, open-source]
         license: "Open Source"
         price: free
@@ -771,7 +771,7 @@ categories:
       - name: "BitChat"
         description: "Decentralized, peer-to-peer messaging application over Bluetooth mesh and Nostr"
         url: "https://github.com/permissionlesstech/bitchat"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/permissionlesstech?s=128&v=4"
         tags: [messaging, open-source]
         license: "Open Source"
         price: free
@@ -905,7 +905,7 @@ categories:
       - name: "Simplenote"
         description: "Simple note-taking application with cross-platform syncing"
         url: "https://github.com/Automattic/simplenote-macos"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Automattic?s=128&v=4"
         tags: [note, taking, writing, open-source]
         license: "Open Source"
         price: free
@@ -1213,7 +1213,7 @@ categories:
       - name: "AlDente"
         description: "Charge limiter to extend MacBook battery life"
         url: "https://github.com/AppHouseKitchen/AlDente-Charge-Limiter"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/AppHouseKitchen?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: freemium
@@ -1228,7 +1228,7 @@ categories:
       - name: "Background Music"
         description: "Control audio per-application"
         url: "https://github.com/kyleneideck/BackgroundMusic"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/kyleneideck?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1236,7 +1236,7 @@ categories:
       - name: "ClearDisk"
         description: "macOS menu bar utility that monitors 44+ developer cache paths and helps reclaim disk space"
         url: "https://github.com/bysiber/cleardisk"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/bysiber?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1251,7 +1251,7 @@ categories:
       - name: "Cork"
         description: "An intuitive and complete Homebrew GUI written in SwiftUI that supports all Homebrew features"
         url: "https://github.com/buresdv/Cork"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/buresdv?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1316,7 +1316,7 @@ categories:
       - name: "MacPacker"
         description: "Archive manager for macOS"
         url: "https://github.com/sarensw/MacPacker"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/sarensw?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1324,7 +1324,7 @@ categories:
       - name: "MonitorControl"
         description: "Control external monitor brightness & volume like native displays"
         url: "https://github.com/MonitorControl/MonitorControl"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/MonitorControl?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1355,7 +1355,7 @@ categories:
       - name: "Stats"
         description: "macOS system monitor"
         url: "https://github.com/exelban/stats"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/exelban?s=128&v=4"
         tags: [system, utilities, open-source]
         license: "Open Source"
         price: free
@@ -1382,7 +1382,7 @@ categories:
       - name: "Ghostty"
         description: "Fast, feature-rich GPU-based terminal"
         url: "https://github.com/ghostty-org/ghostty"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/ghostty-org?s=128&v=4"
         tags: [terminal, shell, open-source]
         license: "Open Source"
         price: free
@@ -1424,7 +1424,7 @@ categories:
       - name: "CodeEdit"
         description: "Native code editor for macOS"
         url: "https://github.com/CodeEditApp/CodeEdit"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/CodeEditApp?s=128&v=4"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1440,7 +1440,7 @@ categories:
       - name: "Itsypad"
         description: "A tiny, fast scratchpad and clipboard manager"
         url: "https://github.com/nickustinov/itsypad-macos"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/nickustinov?s=128&v=4"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1456,7 +1456,7 @@ categories:
       - name: "Neon Vision Editor"
         description: "A lightweight and modern macOS code editor"
         url: "https://github.com/h3pdesign/Neon-Vision-Editor"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/h3pdesign?s=128&v=4"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1494,7 +1494,7 @@ categories:
       - name: "VimR"
         description: "Neovim GUI for macOS"
         url: "https://github.com/qvacua/vimr"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/qvacua?s=128&v=4"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1502,7 +1502,7 @@ categories:
       - name: "Zed"
         description: "Rust-based code editor built"
         url: "https://github.com/zed-industries/zed"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/zed-industries?s=128&v=4"
         tags: [text, editors, open-source]
         license: "Open Source"
         price: free
@@ -1530,7 +1530,7 @@ categories:
       - name: "Itsytv"
         description: "The missing Apple TV remote app"
         url: "https://github.com/nickustinov/itsytv-macos"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/nickustinov?s=128&v=4"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1538,7 +1538,7 @@ categories:
       - name: "Kaset"
         description: "Native YouTube Music client for macOS"
         url: "https://github.com/sozercan/kaset"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/sozercan?s=128&v=4"
         tags: [video, media, open-source]
         license: "Open Source"
         price: free
@@ -1553,7 +1553,7 @@ categories:
       - name: "Palmier Pro"
         description: "Open-source native video editor designed for AI-assisted workflows"
         url: "https://github.com/palmier-io/palmier-pro"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/palmier-io?s=128&v=4"
         tags: [video, media, open-source, ai]
         license: "Open Source"
         price: freemium
@@ -1588,7 +1588,7 @@ categories:
       - name: "Passepartout"
         description: "Your go-to app for VPN and privacy"
         url: "https://github.com/partout-io/passepartout"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/partout-io?s=128&v=4"
         tags: [vpn, client, open-source]
         license: "Open Source"
         price: free
@@ -1596,7 +1596,7 @@ categories:
       - name: "Tunnelblick"
         description: "OpenVPN Client"
         url: "https://github.com/Tunnelblick/Tunnelblick"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/Tunnelblick?s=128&v=4"
         tags: [vpn, client, open-source]
         license: "Open Source"
         price: free
@@ -1648,7 +1648,7 @@ categories:
       - name: "Loop"
         description: "Window management made elegant"
         url: "https://github.com/MrKai77/Loop"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/MrKai77?s=128&v=4"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free
@@ -1707,7 +1707,7 @@ categories:
       - name: "Yabai"
         description: "Tiling window manager for macOS"
         url: "https://github.com/koekeishiya/yabai"
-        icon: ""
+        icon: "https://avatars.githubusercontent.com/koekeishiya?s=128&v=4"
         tags: [window, management, open-source]
         license: "Open Source"
         price: free

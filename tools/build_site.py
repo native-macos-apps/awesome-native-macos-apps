@@ -32,28 +32,7 @@ def parse_value(value: str):
 def get_icon_url(app: dict) -> str:
     if "icon" in app and app["icon"]:
         return app["icon"]
-    url = app.get("url", "")
-    from urllib.parse import urlparse
-    try:
-        parsed = urlparse(url)
-        domain = parsed.netloc
-        
-        # Handle GitHub URLs specially - get repo avatar instead of generic GitHub icon
-        if domain in ("github.com", "www.github.com"):
-            # Extract owner and repo from GitHub URL
-            path_parts = parsed.path.strip("/").split("/")
-            if len(path_parts) >= 2:
-                owner = path_parts[0]
-                repo = path_parts[1]
-                # Use GitHub's user/org avatar endpoint
-                return f"https://avatars.githubusercontent.com/{owner}?s=128&v=4"
-        
-        if domain.startswith("www."):
-            domain = domain[4:]
-        if domain:
-            return f"https://www.google.com/s2/favicons?sz=128&domain={domain}"
-    except Exception:
-        pass
+    # If no icon, return default SVG
     return "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a7cff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3C/svg%3E"
 
 
