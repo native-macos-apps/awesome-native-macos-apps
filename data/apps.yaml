@@ -225,6 +225,13 @@ categories:
     name: "Database Tools"
     description: "Native macOS apps for database tools."
     apps:
+      - name: "Medis"
+        description: "Modern Redis GUI for macOS with a native interface"
+        url: "https://getmedis.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=getmedis.com"
+        tags: [database, tools]
+        price: freemium
+        status: active
       - name: "Postico"
         description: "Modern PostgreSQL client for macOS"
         url: "https://eggerapps.at/postico2"
