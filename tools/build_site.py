@@ -37,6 +37,17 @@ def get_icon_url(app: dict) -> str:
     try:
         parsed = urlparse(url)
         domain = parsed.netloc
+        
+        # Handle GitHub URLs specially - get repo avatar instead of generic GitHub icon
+        if domain in ("github.com", "www.github.com"):
+            # Extract owner and repo from GitHub URL
+            path_parts = parsed.path.strip("/").split("/")
+            if len(path_parts) >= 2:
+                owner = path_parts[0]
+                repo = path_parts[1]
+                # Use GitHub's user/org avatar endpoint
+                return f"https://avatars.githubusercontent.com/{owner}?s=128&v=4"
+        
         if domain.startswith("www."):
             domain = domain[4:]
         if domain:
