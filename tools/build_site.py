@@ -86,8 +86,11 @@ def render(categories: list[dict]) -> str:
         ("paid", "Paid"),
         ("open-source", "Open Source"),
     ]
-    category_filters = "\n".join(
-        f'<button class="category-button" type="button" data-category-filter="{html.escape(category["id"])}" aria-pressed="false">{html.escape(category["name"])}</button>'
+    category_menu_items = "\n".join(
+        f'<a class="menu-item" href="#{html.escape(category["id"])}" data-category-link="{html.escape(category["id"])}">'
+        f'<span class="menu-name">{html.escape(category["name"])}</span>'
+        f'<span class="menu-count" data-menu-count="{html.escape(category["id"])}">{len(category.get("apps", []))}</span>'
+        f'</a>'
         for category in categories
     )
     filters = "\n".join(
@@ -117,10 +120,10 @@ def render(categories: list[dict]) -> str:
                 f"""
                 <article class="app-card" data-tags="{html.escape(app_tags)}" data-category-id="{html.escape(category['id'])}" data-price="{html.escape(app_price)}" data-open-source="{str(is_open_source).lower()}">
                   <div class="app-header">
-                    <img class="app-icon" src="{html.escape(icon_url)}" alt="{html.escape(app['name'])} icon" width="36" height="36" loading="lazy" onerror="this.onerror=null; this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a7cff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3C/svg%3E&quot;;" />
+                    <img class="app-icon" src="{html.escape(icon_url)}" alt="{html.escape(app['name'])} icon" width="40" height="40" loading="lazy" onerror="this.onerror=null; this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230071e3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3C/svg%3E&quot;;" />
                     <div class="app-title-wrapper">
                       <div class="app-title">
-                        <a href="{html.escape(app['url'])}" rel="noopener noreferrer">{html.escape(app['name'])}</a>
+                        <a href="{html.escape(app['url'])}" rel="noopener noreferrer" target="_blank">{html.escape(app['name'])}</a>
                         <span class="price">{html.escape(app.get('price', 'free'))}</span>
                       </div>
                     </div>
@@ -154,112 +157,278 @@ def render(categories: list[dict]) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awesome Native macOS Apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {{
       color-scheme: light dark;
-      --bg: #f7f8fb;
-      --text: #15171c;
-      --muted: #5d6575;
-      --line: #d8dde8;
+      --bg: #f8f9fa;
+      --text: #1d1d1f;
+      --muted: #86868b;
+      --line: #e2e2e7;
       --card: #ffffff;
-      --accent: #0a7cff;
-      --tag: #eef3f8;
+      --accent: #0071e3;
+      --accent-light: rgba(0, 113, 227, 0.08);
+      --tag: #f5f5f7;
+      --tag-text: #1d1d1f;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      --sidebar-bg: #ffffff;
     }}
     @media (prefers-color-scheme: dark) {{
       :root {{
-        --bg: #101217;
-        --text: #f2f4f8;
-        --muted: #a9b1c1;
-        --line: #29303d;
-        --card: #171b22;
-        --accent: #5aa7ff;
-        --tag: #222a35;
+        --bg: #000000;
+        --text: #f5f5f7;
+        --muted: #86868b;
+        --line: #2c2c2e;
+        --card: #1c1c1e;
+        --accent: #2997ff;
+        --accent-light: rgba(41, 151, 255, 0.15);
+        --tag: #2c2c2e;
+        --tag-text: #f5f5f7;
+        --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        --sidebar-bg: #161617;
       }}
     }}
     * {{ box-sizing: border-box; }}
+    html {{
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }}
     body {{
       margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.5;
     }}
-    header, main {{
-      width: min(1180px, calc(100% - 32px));
+    .layout {{
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      min-height: 100vh;
+      max-width: 1440px;
       margin: 0 auto;
     }}
-    header {{ padding: 56px 0 28px; }}
-    h1 {{ margin: 0 0 12px; font-size: clamp(2rem, 4vw, 4.5rem); line-height: 1.02; letter-spacing: 0; }}
-    header p {{ max-width: 820px; color: var(--muted); font-size: 1.08rem; }}
-    .stats {{ display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px; color: var(--muted); }}
-    nav {{ display: flex; gap: 8px; flex-wrap: wrap; margin: 28px 0 4px; }}
-    nav a, .category-button, .tag, .meta, .price, .filter-button {{
+    .sidebar {{
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid var(--line);
+      padding: 48px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--sidebar-bg);
+      scrollbar-width: thin;
+    }}
+    .sidebar::-webkit-scrollbar {{
+      width: 4px;
+    }}
+    .sidebar::-webkit-scrollbar-thumb {{
+      background: var(--line);
+      border-radius: 4px;
+    }}
+    .content {{
+      padding: 48px 64px;
+      max-width: 1120px;
+      overflow-y: auto;
+    }}
+    h1 {{
+      margin: 0 0 12px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }}
+    .sidebar p {{
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }}
+    .stats {{
+      display: flex;
+      gap: 20px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+    }}
+    .stats span {{
+      display: flex;
+      flex-direction: column;
+    }}
+    .stats strong {{
+      color: var(--text);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }}
+    .filter-section {{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+    }}
+    .filter-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }}
+    .filter-header strong {{
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }}
+    .filter-header span {{
+      font-size: 0.8rem;
+      color: var(--muted);
+    }}
+    .filter-buttons {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }}
+    .filter-button {{
       background: transparent;
       border: 1px solid var(--line);
-      border-radius: 999px;
-      color: var(--muted);
+      border-radius: 8px;
+      color: var(--text);
       cursor: pointer;
       display: inline-flex;
       font: inherit;
       font-size: 0.82rem;
-      padding: 4px 10px;
-      text-decoration: none;
-      white-space: nowrap;
+      font-weight: 500;
+      padding: 6px 12px;
+      transition: all 0.2s ease;
     }}
-    nav a:hover, .category-button:hover, .category-button[aria-pressed="true"], .filter-button:hover, .filter-button[aria-pressed="true"] {{
-      border-color: var(--accent);
-      color: var(--accent);
+    .filter-button:hover {{
+      border-color: var(--text);
     }}
-    .filters {{
-      border-top: 1px solid var(--line);
-      margin-top: 28px;
-      padding-top: 20px;
+    .filter-button[aria-pressed="true"] {{
+      background: var(--text);
+      border-color: var(--text);
+      color: var(--bg);
     }}
-    .filter-header {{
+    .category-menu {{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }}
+    .menu-header {{
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }}
+    .menu-item {{
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+      padding: 8px 12px;
+      color: var(--muted);
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }}
+    .menu-item:hover {{
+      background: var(--tag);
+      color: var(--text);
+    }}
+    .menu-item.active {{
+      background: var(--accent-light);
+      color: var(--accent);
+      font-weight: 600;
+    }}
+    .menu-count {{
+      font-size: 0.75rem;
+      background: var(--tag);
+      padding: 2px 6px;
+      border-radius: 6px;
+      color: var(--muted);
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }}
+    .menu-item.active .menu-count {{
+      background: var(--accent);
+      color: #ffffff;
+    }}
+    section {{
+      padding: 32px 0 48px;
+      border-bottom: 1px solid var(--line);
+    }}
+    section:last-of-type {{
+      border-bottom: none;
+    }}
+    .section-heading {{
+      align-items: baseline;
       display: flex;
       gap: 12px;
       justify-content: space-between;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
     }}
-    .filter-header strong {{ font-size: 0.95rem; }}
-    .filter-header span {{ color: var(--muted); font-size: 0.9rem; }}
-    .filter-buttons {{ display: flex; flex-wrap: wrap; gap: 8px; }}
-    section {{ border-top: 1px solid var(--line); padding: 34px 0; }}
-    .section-heading {{ align-items: baseline; display: flex; gap: 12px; justify-content: space-between; }}
-    h2 {{ font-size: 1.45rem; margin: 0; }}
-    .section-heading span, .section-description {{ color: var(--muted); }}
+    h2 {{
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }}
+    .section-heading span {{
+      color: var(--muted);
+      font-size: 0.9rem;
+    }}
+    .section-description {{
+      color: var(--muted);
+      margin: 0 0 24px 0;
+      font-size: 0.95rem;
+    }}
     .grid {{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 12px;
-      margin-top: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
     }}
     .app-card {{
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 8px;
-      min-height: 190px;
-      padding: 16px;
+      border-radius: 12px;
+      min-height: 200px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
+      box-shadow: var(--shadow);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .app-card:hover {{
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      border-color: var(--accent);
+    }}
+    @media (prefers-color-scheme: dark) {{
+      .app-card:hover {{
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      }}
     }}
     .app-header {{
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 12px;
+      gap: 14px;
+      margin-bottom: 14px;
     }}
     .app-icon {{
-      border-radius: 22%;
+      border-radius: 10px;
       border: 1px solid var(--line);
       background: var(--card);
-      height: 36px;
-      width: 36px;
+      height: 40px;
+      width: 40px;
       object-fit: contain;
       padding: 4px;
       flex-shrink: 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
       transition: transform 0.2s ease;
     }}
     .app-card:hover .app-icon {{
@@ -280,8 +449,8 @@ def render(categories: list[dict]) -> str:
     }}
     .app-title a {{
       color: var(--text);
-      font-size: 1.05rem;
-      font-weight: 700;
+      font-size: 1.1rem;
+      font-weight: 600;
       text-decoration: none;
       white-space: nowrap;
       overflow: hidden;
@@ -291,63 +460,116 @@ def render(categories: list[dict]) -> str:
     .price {{
       color: var(--accent);
       text-transform: capitalize;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 600;
-      background: rgba(10, 124, 255, 0.08);
+      background: var(--accent-light);
       padding: 2px 8px;
-      border-radius: 999px;
-    }}
-    @media (prefers-color-scheme: dark) {{
-      .price {{
-        background: rgba(90, 167, 255, 0.12);
-      }}
+      border-radius: 6px;
+      border: none;
     }}
     .app-card p {{
       color: var(--muted);
       margin: 0 0 16px 0;
-      font-size: 0.92rem;
+      font-size: 0.9rem;
+      line-height: 1.45;
       flex-grow: 1;
     }}
-    .meta-row, .tags {{ display: flex; flex-wrap: wrap; gap: 6px; }}
-    .tags {{ margin-top: 12px; }}
-    .tag {{ background: var(--tag); border: none; font-size: 0.78rem; font-weight: 500; }}
+    .meta-row {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }}
+    .meta {{
+      font-size: 0.75rem;
+      font-weight: 500;
+      background: var(--tag);
+      color: var(--muted);
+      border: none;
+      border-radius: 6px;
+      padding: 2px 8px;
+    }}
+    .tags {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }}
+    .tag {{
+      background: var(--tag);
+      color: var(--tag-text);
+      border: none;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 2px 8px;
+    }}
     [hidden] {{ display: none !important; }}
-    footer {{ color: var(--muted); padding: 32px 0 56px; text-align: center; }}
+    footer {{
+      color: var(--muted);
+      padding: 48px 0;
+      text-align: center;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--line);
+      margin-top: 40px;
+    }}
+    @media (max-width: 1024px) {{
+      .layout {{
+        grid-template-columns: 1fr;
+      }}
+      .sidebar {{
+        position: static;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+        padding: 32px 24px;
+        background: var(--sidebar-bg);
+      }}
+      .content {{
+        padding: 32px 24px;
+      }}
+    }}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Awesome Native macOS Apps</h1>
-    <p>A curated collection of macOS apps that prioritize a native Mac experience, thoughtful system integration, and everyday performance. Too many desktop apps now ship as heavy webview wrappers, often bringing larger downloads, higher memory use, slower launches, and interfaces that feel out of place on macOS.</p>
-    <div class="stats">
-      <span><span id="visible-count">{app_count}</span> apps</span>
-      <span>{len(categories)} categories</span>
-      <span>Generated from data/apps.yaml</span>
-    </div>
-    <nav aria-label="Filter apps by category">{category_filters}</nav>
-    <div class="filters" aria-label="Filter apps">
-      <div class="filter-header">
-        <strong>Filter</strong>
-        <span id="active-filter">No filter selected</span>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>Awesome Native macOS Apps</h1>
+        <p>A curated collection of macOS apps prioritizing native experience, system integration, and performance.</p>
       </div>
-      <div class="filter-buttons">
-        {filters}
+      <div class="stats">
+        <span><strong id="visible-count">{app_count}</strong> apps</span>
+        <span><strong>{len(categories)}</strong> categories</span>
       </div>
-    </div>
-  </header>
-  <main>{''.join(sections)}</main>
-  <footer>Built with GitHub Actions and GitHub Pages.</footer>
+      <div class="filter-section">
+        <div class="filter-header">
+          <strong>Filters</strong>
+          <span id="active-filter">No filter selected</span>
+        </div>
+        <div class="filter-buttons">
+          {filters}
+        </div>
+      </div>
+      <nav class="category-menu" aria-label="Categories">
+        <div class="menu-header">Categories</div>
+        {category_menu_items}
+      </nav>
+    </aside>
+    <main class="content">
+      {"".join(sections)}
+      <footer>Built with GitHub Actions and GitHub Pages.</footer>
+    </main>
+  </div>
   <script>
     const appCards = Array.from(document.querySelectorAll(".app-card"));
     const categorySections = Array.from(document.querySelectorAll("[data-category]"));
-    const categoryButtons = Array.from(document.querySelectorAll("[data-category-filter]"));
+    const menuItems = Array.from(document.querySelectorAll(".menu-item"));
     const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
     const visibleCount = document.querySelector("#visible-count");
     const activeFilter = document.querySelector("#active-filter");
     const filters = {json.dumps([value for value, _label in filter_options])};
     const categories = {json.dumps([category["id"] for category in categories])};
     const selectedFilters = new Set();
-    const selectedCategories = new Set();
 
     function pluralizeApps(count) {{
       return count === 1 ? "1 app" : `${{count}} apps`;
@@ -355,13 +577,9 @@ def render(categories: list[dict]) -> str:
 
     function syncUrl() {{
       const selectedFilterList = Array.from(selectedFilters);
-      const selectedCategoryList = Array.from(selectedCategories);
       const params = new URLSearchParams();
       if (selectedFilterList.length > 0) {{
         params.set("filters", selectedFilterList.map((filter) => encodeURIComponent(filter)).join(","));
-      }}
-      if (selectedCategoryList.length > 0) {{
-        params.set("categories", selectedCategoryList.map((category) => encodeURIComponent(category)).join(","));
       }}
       const hash = params.toString();
       history.replaceState(null, "", hash ? `#${{hash}}` : window.location.pathname + window.location.search);
@@ -376,50 +594,42 @@ def render(categories: list[dict]) -> str:
 
     function applyFilters() {{
       const selectedFilterList = Array.from(selectedFilters);
-      const selectedCategoryList = Array.from(selectedCategories);
       const hasFilters = selectedFilterList.length > 0;
-      const hasCategories = selectedCategoryList.length > 0;
       let totalVisible = 0;
 
       appCards.forEach((card) => {{
         const matchesFilters = !hasFilters || selectedFilterList.some((filter) => matchesFilter(card, filter));
-        const matchesCategories = !hasCategories || selectedCategoryList.includes(card.dataset.categoryId);
-        const isVisible = matchesFilters && matchesCategories;
-        card.hidden = !isVisible;
-        if (isVisible) totalVisible += 1;
+        card.hidden = !matchesFilters;
+        if (matchesFilters) totalVisible += 1;
       }});
 
       categorySections.forEach((section) => {{
         const visibleInSection = section.querySelectorAll(".app-card:not([hidden])").length;
-        section.hidden = visibleInSection === 0;
+        const isHidden = visibleInSection === 0;
+        section.hidden = isHidden;
+        
+        // Hide/show sidebar category menu link
+        const menuLink = document.querySelector(`.menu-item[data-category-link="${{section.id}}"]`);
+        if (menuLink) {{
+          menuLink.hidden = isHidden;
+        }}
+
         const counter = section.querySelector("[data-section-count]");
         if (counter) counter.textContent = pluralizeApps(visibleInSection);
+
+        const menuCount = document.querySelector(`[data-menu-count="${{section.id}}"]`);
+        if (menuCount) menuCount.textContent = String(visibleInSection);
       }});
 
       filterButtons.forEach((button) => {{
         button.setAttribute("aria-pressed", String(selectedFilters.has(button.dataset.filter)));
       }});
-      categoryButtons.forEach((button) => {{
-        button.setAttribute("aria-pressed", String(selectedCategories.has(button.dataset.categoryFilter)));
-      }});
 
       visibleCount.textContent = String(totalVisible);
-      const selectedCount = selectedFilterList.length + selectedCategoryList.length;
+      const selectedCount = selectedFilterList.length;
       activeFilter.textContent = selectedCount > 0 ? `${{selectedCount}} filter${{selectedCount === 1 ? "" : "s"}} selected` : "No filter selected";
       syncUrl();
     }}
-
-    categoryButtons.forEach((button) => {{
-      button.addEventListener("click", () => {{
-        const category = button.dataset.categoryFilter;
-        if (selectedCategories.has(category)) {{
-          selectedCategories.delete(category);
-        }} else {{
-          selectedCategories.add(category);
-        }}
-        applyFilters();
-      }});
-    }});
 
     filterButtons.forEach((button) => {{
       button.addEventListener("click", () => {{
@@ -433,17 +643,35 @@ def render(categories: list[dict]) -> str:
       }});
     }});
 
+    // Scroll Spy
+    const observerOptions = {{
+      root: null,
+      rootMargin: '-10% 0px -80% 0px',
+      threshold: 0
+    }};
+
+    const observer = new IntersectionObserver((entries) => {{
+      entries.forEach(entry => {{
+        if (entry.isIntersecting && !entry.target.hidden) {{
+          const id = entry.target.getAttribute('id');
+          menuItems.forEach(item => {{
+            item.classList.toggle('active', item.dataset.categoryLink === id);
+          }});
+        }}
+      }});
+    }}, observerOptions);
+
+    categorySections.forEach(section => {{
+      observer.observe(section);
+    }});
+
+    // Handle hash parameters on load
     const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ""));
     const initialFilters = (hashParams.get("filters") || "")
       .split(",")
       .map((filter) => decodeURIComponent(filter))
       .filter((filter) => filters.includes(filter));
-    const initialCategories = (hashParams.get("categories") || "")
-      .split(",")
-      .map((category) => decodeURIComponent(category))
-      .filter((category) => categories.includes(category));
     initialFilters.forEach((filter) => selectedFilters.add(filter));
-    initialCategories.forEach((category) => selectedCategories.add(category));
     applyFilters();
   </script>
 </body>
