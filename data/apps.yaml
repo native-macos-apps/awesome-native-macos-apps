@@ -232,6 +232,14 @@ categories:
         tags: [database, tools]
         price: freemium
         status: active
+      - name: "MongoDesktop"
+        description: "Native macOS client for MongoDB"
+        url: "https://github.com/native-macos-apps/mongodesktop"
+        icon: "https://avatars.githubusercontent.com/native-macos-apps?s=128&v=4"
+        tags: [database, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
       - name: "Postico"
         description: "Modern PostgreSQL client for macOS"
         url: "https://eggerapps.at/postico2"
@@ -346,6 +354,14 @@ categories:
         description: "Native macOS app for managing SSH keys and SSH config entries"
         url: "https://github.com/Stmol/ssh-keys-manager-macos-app"
         icon: "https://avatars.githubusercontent.com/Stmol?s=128&v=4"
+        tags: [developer, tools, open-source]
+        license: "Open Source"
+        price: free
+        status: active
+      - name: "VisualDiffer"
+        description: "Fast visual file and folder comparison and merge tool"
+        url: "https://visualdiffer.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=visualdiffer.com"
         tags: [developer, tools, open-source]
         license: "Open Source"
         price: free
