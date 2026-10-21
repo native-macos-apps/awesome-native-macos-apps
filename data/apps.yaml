@@ -1376,6 +1376,13 @@ categories:
         license: "Open Source"
         price: free
         status: active
+      - name: "Sundown"
+        description: "Menu bar app that warms and dims the display on a schedule"
+        url: "https://trysundown.com"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=trysundown.com"
+        tags: [system, utilities]
+        price: paid
+        status: active
       - name: "The Unarchiver"
         description: "Extract many archive formats"
         url: "https://theunarchiver.com"
