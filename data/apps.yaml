@@ -97,6 +97,13 @@ categories:
         tags: [audio, music]
         price: paid
         status: active
+      - name: "Teclo"
+        description: "Mechanical keyboard sound for every key you press in any app, from the menu bar"
+        url: "https://teclo.app"
+        icon: "https://www.google.com/s2/favicons?sz=128&domain=teclo.app"
+        tags: [audio, keyboard]
+        price: paid
+        status: active
   - id: backup-sync
     name: "Backup & Sync"
     description: "Native macOS apps for backup & sync."
