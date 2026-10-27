@@ -1661,6 +1661,14 @@ categories:
         tags: [window, management]
         price: paid
         status: active
+      - name: "LayoutKeeper"
+        description: "Restores windows to their original external monitor, Space, and position on reconnect"
+        url: "https://github.com/tumingke0/LayoutKeeper"
+        icon: "https://avatars.githubusercontent.com/tumingke0?s=128&v=4"
+        tags: [window, management, open-source]
+        license: "Open Source"
+        price: free
+        status: active
       - name: "Loop"
         description: "Window management made elegant"
         url: "https://github.com/MrKai77/Loop"
